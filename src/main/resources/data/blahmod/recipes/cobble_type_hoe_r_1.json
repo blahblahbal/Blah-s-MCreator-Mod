@@ -1,0 +1,27 @@
+{
+  "group": "blahmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "tag": "cobblestone_types"
+    },
+    "1": {
+      "tag": "cobblestone_types"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+    {
+      "model": "blahmod:block/dread_rock"
+    },
+    {
+      "model": "blahmod:block/dread_rock",
+      "y" : 90
+    },
+    {
+      "model": "blahmod:block/dread_rock",
+      "y" : 180
+    },
+    {
+      "model": "blahmod:block/dread_rock",
+      "y" : 270
+    }
+    ]
+  }
+}

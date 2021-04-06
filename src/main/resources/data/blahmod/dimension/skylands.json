@@ -1,0 +1,287 @@
+{
+  "type": "blahmod:skylands",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 0,
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "seed": 0,
+      "temperature_noise": {
+        "firstOctave": -9.1,
+        "amplitudes": [
+          2,
+          2
+        ]
+      },
+      "humidity_noise": {
+        "firstOctave": -9.1,
+        "amplitudes": [
+          2,
+          2
+        ]
+      },
+      "altitude_noise": {
+        "firstOctave": -9.1,
+        "amplitudes": [
+          2,
+          2
+        ]
+      },
+      "weirdness_noise": {
+        "firstOctave": -9.1,
+        "amplitudes": [
+          2,
+          2
+        ]
+      },
+      "biomes": [
+        {
+          "biome": "mountains",
+          "parameters": {
+            "temperature": 1,
+            "humidity": -1,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "badlands",
+          "parameters": {
+            "temperature": 0.894736842106,
+            "humidity": -0.894736842106,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "desert",
+          "parameters": {
+            "temperature": 0.78947368421,
+            "humidity": -0.78947368421,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "snowy_tundra",
+          "parameters": {
+            "temperature": 0.684210526316,
+            "humidity": -0.684210526316,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "snowy_mountains",
+          "parameters": {
+            "temperature": 0.578947368422,
+            "humidity": -0.578947368422,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "wooded_hills",
+          "parameters": {
+            "temperature": 0.473684210526,
+            "humidity": -0.473684210526,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "jungle",
+          "parameters": {
+            "temperature": 0.368421052632,
+            "humidity": -0.368421052632,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "mountain_edge",
+          "parameters": {
+            "temperature": 0.263157894736,
+            "humidity": -0.263157894736,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "wooded_badlands_plateau",
+          "parameters": {
+            "temperature": 0.157894736842,
+            "humidity": -0.157894736842,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "gravelly_mountains",
+          "parameters": {
+            "temperature": 0.052631578948,
+            "humidity": -0.052631578948,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "flower_forest",
+          "parameters": {
+            "temperature": -0.052631578948,
+            "humidity": 0.052631578948,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "modified_jungle",
+          "parameters": {
+            "temperature": -0.157894736842,
+            "humidity": 0.157894736842,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "dark_forest",
+          "parameters": {
+            "temperature": -0.263157894736,
+            "humidity": 0.263157894736,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "blahmod:sky_plains",
+          "parameters": {
+            "temperature": -0.368421052632,
+            "humidity": 0.368421052632,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "blahmod:sky_forest",
+          "parameters": {
+            "temperature": -0.473684210526,
+            "humidity": 0.473684210526,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "blahmod:sky_taiga",
+          "parameters": {
+            "temperature": -0.578947368422,
+            "humidity": 0.578947368422,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "blahmod:sky_birch_forest",
+          "parameters": {
+            "temperature": -0.684210526316,
+            "humidity": 0.684210526316,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "blahmod:sky_savanna",
+          "parameters": {
+            "temperature": -0.78947368421,
+            "humidity": 0.78947368421,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "blahmod:dark_matter",
+          "parameters": {
+            "temperature": -0.894736842106,
+            "humidity": 0.894736842106,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "blahmod:ancient",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 1,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        }
+      ]
+    },
+    "settings": {
+      "name": "blahmod:skylands",
+      "bedrock_roof_position": -10,
+      "bedrock_floor_position": -10,
+      "sea_level": 0,
+      "disable_mob_generation": false,
+      "default_block": {
+        "Name": "blahmod:tropics_stone"
+      },
+      "default_fluid": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+      },
+      "noise": {
+        "density_factor": 0,
+        "density_offset": 0,
+        "simplex_surface_noise": true,
+        "random_density_offset": false,
+        "island_noise_override": true,
+        "amplified": false,
+        "size_horizontal": 2,
+        "size_vertical": 1,
+        "height": 128,
+        "sampling": {
+          "xz_scale": 2,
+          "y_scale": 1,
+          "xz_factor": 80,
+          "y_factor": 160
+        },
+        "bottom_slide": {
+          "target": -30,
+          "size": 7,
+          "offset": 1
+        },
+        "top_slide": {
+          "target": -3000,
+          "size": 64,
+          "offset": -46
+        }
+      },
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

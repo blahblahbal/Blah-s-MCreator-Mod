@@ -1,0 +1,19 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:TropicsCobblestone"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "cobblestone_types",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "blahmod:blocks/amethystblock",
+    "top": "blahmod:blocks/amethystblock",
+    "side": "blahmod:blocks/amethystblock"
+  }
+}

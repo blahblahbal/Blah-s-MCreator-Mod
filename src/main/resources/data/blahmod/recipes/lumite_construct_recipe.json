@@ -1,0 +1,34 @@
+{
+  "group": "blahmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "blahmod:catalytic_inverter"
+    },
+    {
+      "item": "blahmod:lumite_ingot"
+    },
+    {
+      "item": "blahmod:catalytic_inverter"
+    },
+    {
+      "item": "blahmod:lumite_ingot"
+    },
+    {
+      "item": "blahmod:lumite_ingot"
+    },
+    {
+      "item": "blahmod:zircon"
+    },
+    {
+      "item": "blahmod:lumite_ingot"
+    },
+    {
+      "item": "blahmod:zircon"
+    }
+  ],
+  "result": {
+    "item": "blahmod:lumite_construct",
+    "count": 1
+  }
+}

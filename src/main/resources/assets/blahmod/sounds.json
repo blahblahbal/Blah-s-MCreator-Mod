@@ -1,0 +1,11 @@
+{
+  "dark_matter_stone_break": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "blahmod:nylium_break1",
+        "stream": false
+      }
+    ]
+  }
+}
