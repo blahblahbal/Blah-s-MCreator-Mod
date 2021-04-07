@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "biome",
   "definition": {
     "name": "Nether Core Forest",
@@ -90,20 +90,20 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "CUSTOM:EskimoZombie"
-        },
-        "minGroup": 4,
-        "maxGroup": 5,
-        "weight": 20,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
           "value": "EntityGhast"
         },
         "minGroup": 4,
         "maxGroup": 4,
         "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:EskimoZombie"
+        },
+        "minGroup": 2,
+        "maxGroup": 2,
+        "weight": 10,
         "spawnType": "monster"
       }
     ]

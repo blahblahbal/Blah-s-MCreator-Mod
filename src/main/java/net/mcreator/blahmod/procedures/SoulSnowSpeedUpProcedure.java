@@ -3,6 +3,7 @@ package net.mcreator.blahmod.procedures;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.blahmod.BlahmodModElements;
@@ -24,6 +25,12 @@ public class SoulSnowSpeedUpProcedure extends BlahmodModElements.ModElement {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (!(entity instanceof PlayerEntity))
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 30, (int) 1, (false), (false)));
+		{
+			if (entity instanceof LivingEntity)
+			{
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 30, (int) 1, (false), (false)));
+
+			}
+		}			
 	}
 }

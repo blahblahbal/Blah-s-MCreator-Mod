@@ -60,7 +60,7 @@ public class LumiteSwordItem extends BlahmodModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\uFFFDcMolten"));
+				list.add(new StringTextComponent("\u00A7cMolten"));
 			}
 
 			@Override

@@ -56,7 +56,7 @@ public class TadaniteAxeItem extends BlahmodModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\uFFFDeEfficient"));
+				list.add(new StringTextComponent("\u00A7eEfficient"));
 			}
 		}.setRegistryName("tadanite_axe"));
 	}

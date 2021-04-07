@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "block",
   "definition": {
     "texture": "lumiteblock",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "ï¿½6Block of Lumite",
+    "name": "§6Block of Lumite",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 1000.0,

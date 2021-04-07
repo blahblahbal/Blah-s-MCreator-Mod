@@ -73,12 +73,12 @@ public class TropicsTreeStructure extends BlahmodModElements.ModElement {
 								continue;
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
 							Mirror mirror = Mirror.values()[random.nextInt(2)];
-							BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
+							BlockPos spawnTo = new BlockPos(i + -4, j + 0, k + -4);
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("blahmod", "tropics_tree_new_2"));
+									.getTemplateDefaulted(new ResourceLocation("blahmod", "tropics_tree"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo,
