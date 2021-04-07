@@ -2,7 +2,7 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "xenon_crystal_block",
+    "texture": "krypton_crystal_block",
     "textureTop": "xenon_crystal_block_top",
     "textureLeft": "xenon_crystal_block_side",
     "textureFront": "xenon_crystal_block_side",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Xenon Crystal Block",
+    "name": "Krypton Crystal Block",
     "specialInfo": [],
     "hardness": 1.2,
     "resistance": 10.0,

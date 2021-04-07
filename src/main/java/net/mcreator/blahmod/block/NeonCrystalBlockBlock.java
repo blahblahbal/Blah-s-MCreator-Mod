@@ -28,11 +28,11 @@ import java.util.List;
 import java.util.Collections;
 
 @BlahmodModElements.ModElement.Tag
-public class XenonCrystalBlockBlock extends BlahmodModElements.ModElement {
-	@ObjectHolder("blahmod:xenon_crystal_block")
+public class NeonCrystalBlockBlock extends BlahmodModElements.ModElement {
+	@ObjectHolder("blahmod:neon_crystal_block")
 	public static final Block block = null;
-	public XenonCrystalBlockBlock(BlahmodModElements instance) {
-		super(instance, 1747);
+	public NeonCrystalBlockBlock(BlahmodModElements instance) {
+		super(instance, 1750);
 	}
 
 	@Override
@@ -51,7 +51,7 @@ public class XenonCrystalBlockBlock extends BlahmodModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.SHROOMLIGHT).hardnessAndResistance(1.2f, 10f).setLightLevel(s -> 4)
 					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
-			setRegistryName("xenon_crystal_block");
+			setRegistryName("neon_crystal_block");
 		}
 
 		@Override
