@@ -24,7 +24,13 @@ public class SoulSnowSpeedUpProcedure extends BlahmodModElements.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (!(entity instanceof PlayerEntity) && !(entity instanceof ItemEntity))
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 30, (int) 1, (false), (false)));
+		if (!(entity instanceof PlayerEntity))
+		{
+			if (entity instanceof LivingEntity)
+			{
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 30, (int) 1, (false), (false)));
+
+			}
+		}			
 	}
 }
