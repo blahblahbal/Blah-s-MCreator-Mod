@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Obsidian Shovel",
     "specialInfo": [
-      "ï¿½7Fragile"
+      "§7Fragile"
     ],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

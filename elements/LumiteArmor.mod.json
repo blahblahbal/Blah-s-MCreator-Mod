@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -17,10 +17,10 @@
       "value": "CUSTOM:CreativeTabBlahItems"
     },
     "armorTextureFile": "lumite_",
-    "helmetName": "ï¿½6Lumite Helmet",
-    "bodyName": "ï¿½6Lumite Chestplate",
-    "leggingsName": "ï¿½6Lumite Leggings",
-    "bootsName": "ï¿½6Lumite Boots",
+    "helmetName": "§6Lumite Helmet",
+    "bodyName": "§6Lumite Chestplate",
+    "leggingsName": "§6Lumite Leggings",
+    "bootsName": "§6Lumite Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],

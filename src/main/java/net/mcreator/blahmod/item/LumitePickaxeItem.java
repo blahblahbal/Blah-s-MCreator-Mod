@@ -67,8 +67,8 @@ public class LumitePickaxeItem extends BlahmodModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\uFFFDcFortune"));
-				list.add(new StringTextComponent("\uFFFDcMolten"));
+				list.add(new StringTextComponent("\u00A7cFortune"));
+				list.add(new StringTextComponent("\u00A7cMolten"));
 				list.add(new StringTextComponent("Right-click Lumite Ore to mine it"));
 			}
 

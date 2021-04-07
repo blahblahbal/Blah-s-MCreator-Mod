@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "ï¿½aTadanite Axe",
     "specialInfo": [
-      "ï¿½eEfficient"
+      "§eEfficient"
     ],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

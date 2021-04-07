@@ -1,8 +1,8 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "structure",
   "definition": {
-    "structure": "tropics_tree_new_2",
+    "structure": "tropics_tree",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 500000,
@@ -10,8 +10,8 @@
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
     "spawnHeightOffset": 0,
-    "spawnXOffset": 0,
-    "spawnZOffset": 0,
+    "spawnXOffset": -4,
+    "spawnZOffset": -4,
     "spawnWorldTypes": [
       "Surface"
     ],

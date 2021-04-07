@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -17,10 +17,10 @@
       "value": "CUSTOM:CreativeTabBlahItems"
     },
     "armorTextureFile": "tadanite_",
-    "helmetName": "ï¿½aTadanite Helmet",
-    "bodyName": "ï¿½aTadanite Chestplate",
-    "leggingsName": "ï¿½aTadanite Leggings",
-    "bootsName": "ï¿½aTadanite Boots",
+    "helmetName": "§aTadanite Helmet",
+    "bodyName": "§aTadanite Chestplate",
+    "leggingsName": "§aTadanite Leggings",
+    "bootsName": "§aTadanite Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
