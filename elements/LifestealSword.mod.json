@@ -1,5 +1,5 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Crimson Edge",
     "specialInfo": [
-      "§7Lifesteal II"
+      "ï¿½7Lifesteal II"
     ],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

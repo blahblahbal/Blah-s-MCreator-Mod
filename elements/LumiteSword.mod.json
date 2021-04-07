@@ -1,13 +1,13 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "lumitesword",
     "customModelName": "Normal",
-    "name": "§6Lumite Sword",
+    "name": "ï¿½6Lumite Sword",
     "specialInfo": [
-      "§cMolten"
+      "ï¿½cMolten"
     ],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

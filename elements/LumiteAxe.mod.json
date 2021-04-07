@@ -1,11 +1,11 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "lumiteaxe",
     "customModelName": "Normal",
-    "name": "§6Lumite Axe",
+    "name": "ï¿½6Lumite Axe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

@@ -1,5 +1,5 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "block",
   "definition": {
     "texture": "tadaniteore",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "§aTadanite Ore",
+    "name": "ï¿½aTadanite Ore",
     "specialInfo": [],
     "hardness": 20.0,
     "resistance": 2000.0,

@@ -1,5 +1,5 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "biome",
   "definition": {
     "name": "Sky Plains",
@@ -81,7 +81,8 @@
       "Caves",
       "MonsterRooms",
       "Structures",
-      "Ores"
+      "Ores",
+      "FrozenTopLayer"
     ],
     "spawnEntries": [
       {

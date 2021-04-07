@@ -1,11 +1,11 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "tadaniteshard",
     "customModelName": "Normal",
-    "name": "§aTadanite Crystal",
+    "name": "ï¿½aTadanite Crystal",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

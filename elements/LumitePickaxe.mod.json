@@ -1,14 +1,14 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "lumitepickaxe",
     "customModelName": "Normal",
-    "name": "§6Lumite Pickaxe",
+    "name": "ï¿½6Lumite Pickaxe",
     "specialInfo": [
-      "§cFortune",
-      "§cMolten",
+      "ï¿½cFortune",
+      "ï¿½cMolten",
       "Right-click Lumite Ore to mine it"
     ],
     "creativeTab": {

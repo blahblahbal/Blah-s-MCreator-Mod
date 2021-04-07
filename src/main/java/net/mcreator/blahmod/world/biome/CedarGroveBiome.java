@@ -90,6 +90,7 @@ public class CedarGroveBiome extends BlahmodModElements.ModElement {
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withMonsterRoom(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
+				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.ENDERMAN, 20, 4, 4));
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.CREEPER, 20, 4, 4));

@@ -1,21 +1,7 @@
 {
   "variants": {
-    "": [
-    {
+    "": {
       "model": "blahmod:block/netherfrost"
-    },
-    {
-      "model": "blahmod:block/netherfrost",
-      "y" : 90
-    },
-    {
-      "model": "blahmod:block/netherfrost",
-      "y" : 180
-    },
-    {
-      "model": "blahmod:block/netherfrost",
-      "y" : 270
     }
-    ]
   }
 }

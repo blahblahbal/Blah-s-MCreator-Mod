@@ -1,11 +1,11 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "tadanitediamond",
     "customModelName": "Normal",
-    "name": "§aTadanite Diamond",
+    "name": "ï¿½aTadanite Diamond",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

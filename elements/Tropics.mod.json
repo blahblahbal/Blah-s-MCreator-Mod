@@ -1,5 +1,5 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "biome",
   "definition": {
     "name": "Tropics",
@@ -98,7 +98,8 @@
       "Structures",
       "Ores",
       "Bamboo",
-      "DesertLakes"
+      "DesertLakes",
+      "FrozenTopLayer"
     ],
     "spawnEntries": [
       {
