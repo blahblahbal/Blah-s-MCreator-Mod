@@ -50,7 +50,7 @@
     "toughness": 4.0,
     "knockbackResistance": 0.13,
     "equipSound": {
-      "value": ""
+      "value": "item.armor.equip_netherite"
     },
     "repairItems": [
       {

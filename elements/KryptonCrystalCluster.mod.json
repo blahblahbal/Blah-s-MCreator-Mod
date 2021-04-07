@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "block",
   "definition": {
     "texture": "kryptoncrystal",
@@ -8,9 +8,9 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
-    "rotationMode": 0,
+    "renderType": 2,
+    "customModelName": "crystalthing:krypton",
+    "rotationMode": 4,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",

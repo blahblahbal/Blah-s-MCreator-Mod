@@ -11,6 +11,7 @@ import net.minecraft.item.crafting.IRecipeType;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.entity.item.ItemEntity;
+import net.minecraft.entity.item.ExperienceOrbEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.enchantment.Enchantments;
@@ -173,6 +174,9 @@ public class MoltenTouchProcedureProcedure extends BlahmodModElements.ModElement
 						world.destroyBlock(new BlockPos((int) x, (int) y, (int) z), false);
 					}
 				}
+			}
+			if (world instanceof World && !world.isRemote()) {
+				((World) world).addEntity(new ExperienceOrbEntity(((World) world), x, y, z, (int) 3));
 			}
 		}
 	}

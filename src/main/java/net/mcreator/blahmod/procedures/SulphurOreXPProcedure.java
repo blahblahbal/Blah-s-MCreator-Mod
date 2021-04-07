@@ -41,13 +41,16 @@ public class SulphurOreXPProcedure extends BlahmodModElements.ModElement {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		if (world instanceof World && !world.isRemote()) {
+			((World) world).addEntity(new ExperienceOrbEntity(((World) world), x, y, z, (int) 6));
+		}
+		if (world instanceof World && !world.isRemote()) {
 			((World) world).addEntity(new ExperienceOrbEntity(((World) world), x, y, z, (int) 4));
 		}
 		if (world instanceof World && !world.isRemote()) {
-			((World) world).addEntity(new ExperienceOrbEntity(((World) world), x, y, z, (int) 3));
+			((World) world).addEntity(new ExperienceOrbEntity(((World) world), x, y, z, (int) 5));
 		}
 		if (world instanceof World && !world.isRemote()) {
-			((World) world).addEntity(new ExperienceOrbEntity(((World) world), x, y, z, (int) 3));
+			((World) world).addEntity(new ExperienceOrbEntity(((World) world), x, y, z, (int) 5));
 		}
 	}
 }
