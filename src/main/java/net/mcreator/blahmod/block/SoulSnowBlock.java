@@ -42,8 +42,8 @@ public class SoulSnowBlock extends BlahmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.SAND).sound(SoundType.SOUL_SAND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.SHOVEL).speedFactor(1.6f));
+			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(0)
+					.harvestTool(ToolType.SHOVEL).speedFactor(1.3f));
 			setRegistryName("soul_snow");
 		}
 

@@ -17806,6 +17806,266 @@
           }
         ]
       }
+    },
+    {
+      "name": "XenonCrystalCluster",
+      "type": "block",
+      "sortid": 1723,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenon_crystal_cluster"
+    },
+    {
+      "name": "ArgonCrystalCluster",
+      "type": "block",
+      "sortid": 1720,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "argon_crystal_cluster"
+    },
+    {
+      "name": "XenonCrystalOre",
+      "type": "block",
+      "sortid": 1738,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenon_crystal_ore"
+    },
+    {
+      "name": "ArgonCCLT",
+      "type": "loottable",
+      "sortid": 1728,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "argon_cclt"
+    },
+    {
+      "name": "NeonCOLT",
+      "type": "loottable",
+      "sortid": 1741,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neon_colt"
+    },
+    {
+      "name": "NeonCrystalCluster",
+      "type": "block",
+      "sortid": 1722,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neon_crystal_cluster"
+    },
+    {
+      "name": "ArgonCrystalOre",
+      "type": "block",
+      "sortid": 1735,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "argon_crystal_ore"
+    },
+    {
+      "name": "KryptonCrystalCluster",
+      "type": "block",
+      "sortid": 1721,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krypton_crystal_cluster"
+    },
+    {
+      "name": "XenonCrystal",
+      "type": "item",
+      "sortid": 1727,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenon_crystal"
+    },
+    {
+      "name": "KryptonCCLT",
+      "type": "loottable",
+      "sortid": 1729,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krypton_cclt"
+    },
+    {
+      "name": "CrystalCaveAir",
+      "type": "block",
+      "sortid": 1732,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_cave_air",
+      "path": "~/Caves"
+    },
+    {
+      "name": "XenonCCLT",
+      "type": "loottable",
+      "sortid": 1731,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenon_cclt"
+    },
+    {
+      "name": "KryptonCrystalOre",
+      "type": "block",
+      "sortid": 1736,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krypton_crystal_ore"
+    },
+    {
+      "name": "CrystalCaveGen",
+      "type": "structure",
+      "sortid": 1734,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_cave_gen",
+      "path": "~/Caves"
+    },
+    {
+      "name": "KryptonCOLT",
+      "type": "loottable",
+      "sortid": 1740,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krypton_colt"
+    },
+    {
+      "name": "ArgonCrystal",
+      "type": "item",
+      "sortid": 1724,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "argon_crystal"
+    },
+    {
+      "name": "XenonCOLT",
+      "type": "loottable",
+      "sortid": 1742,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenon_colt"
+    },
+    {
+      "name": "NeonCCLT",
+      "type": "loottable",
+      "sortid": 1730,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neon_cclt"
+    },
+    {
+      "name": "ArgonCOLT",
+      "type": "loottable",
+      "sortid": 1739,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "argon_colt"
+    },
+    {
+      "name": "KryptonCrystal",
+      "type": "item",
+      "sortid": 1725,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krypton_crystal"
+    },
+    {
+      "name": "NeonCrystalOre",
+      "type": "block",
+      "sortid": 1737,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neon_crystal_ore"
+    },
+    {
+      "name": "NeonCrystal",
+      "type": "item",
+      "sortid": 1726,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neon_crystal"
+    },
+    {
+      "name": "CrystalCaveAirUpdate",
+      "type": "procedure",
+      "sortid": 1733,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_cave_air_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Caves"
+    },
+    {
+      "name": "CrystalCaveAirPro",
+      "type": "procedure",
+      "sortid": 1733,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_cave_air_pro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Caves"
     }
   ],
   "variable_elements": [],
@@ -17825,17 +18085,17 @@
       "block.blahmod.frost_wood_slab": "Frost Wood Slab",
       "block.blahmod.polished_igneous_rock": "Polished Igneous Rock",
       "block.blahmod.lapis_side_slab": "Lapis Lazuli Side Slab",
-      "block.blahmod.sapphire_ore": "Cloud Sapphire Ore",
       "block.blahmod.obsidian_brick_side_slab": "Obsidian Brick Side Slab",
+      "block.blahmod.sapphire_ore": "Cloud Sapphire Ore",
       "block.blahmod.amethyst_ore_gem_biome": "Amethyst Ore",
-      "block.blahmod.citrine_leaves": "Citrine Leaves",
-      "death.attack.q37.player": "%1$s was taken away to the funny farm",
       "item.blahmod.tadanite_axe": "�aTadanite Axe",
+      "death.attack.q37.player": "%1$s was taken away to the funny farm",
+      "block.blahmod.citrine_leaves": "Citrine Leaves",
       "item.blahmod.topaz_staff": "Topaz Staff",
       "block.blahmod.whitewood_secret_door": "Whitewood Secret Door",
-      "advancements.nether_core_achievement.title": "Chilly.",
-      "death.attack.freezing.player": "%1$s froze to death whilst fighting %2$s",
       "block.blahmod.chiseled_bone_sandstone": "Chiseled Bonesandstone",
+      "death.attack.freezing.player": "%1$s froze to death whilst fighting %2$s",
+      "advancements.nether_core_achievement.title": "Chilly.",
       "block.blahmod.quartz_side_slab": "Quartz Side Slab",
       "block.blahmod.lightly_charred_scoria_stairs": "Lightly Charred Scoria Stairs",
       "block.blahmod.lumite_ore": "Lumite Ore",
@@ -17851,14 +18111,15 @@
       "block.blahmod.petrified_wood": "Petrified Wood",
       "block.blahmod.cactus_side_slab": "Cactus Side Slab",
       "block.blahmod.stripped_cedar_log": "Stripped Cedar Log",
-      "block.blahmod.smooth_netherrack_slab": "Smooth Netherrack Slab",
+      "block.blahmod.crystal_cave_air": "Crystal Cave Air",
       "block.blahmod.chiseled_frost_sandstone": "Chiseled Frost Sandstone",
+      "block.blahmod.smooth_netherrack_slab": "Smooth Netherrack Slab",
       "block.blahmod.amethyst_leaves": "Amethyst Leaves",
       "block.blahmod.stripped_cedar_wood": "Stripped Cedar Wood",
       "item.blahmod.citrine_staff": "Citrine Staff",
       "block.blahmod.ruby_leaves": "Ruby Leaves",
-      "block.blahmod.polished_charred_scoria_stairs": "Polished Charred Scoria Stairs",
       "block.blahmod.cedar_sapling": "Cedar Sapling",
+      "block.blahmod.polished_charred_scoria_stairs": "Polished Charred Scoria Stairs",
       "item.blahmod.topaz_blast": "Topaz Blast",
       "death.attack.q22.player": "%1$s fell from a low place",
       "block.blahmod.obsidian_side_slab": "Obsidian Side Slab",
@@ -17880,19 +18141,19 @@
       "block.blahmod.ruby_ore": "Ruby Ore",
       "death.attack.q17": "%1$s tried to fight the Ender Dragon too early",
       "death.attack.q10": "%1$s noclipped into the void",
-      "block.blahmod.emerald_slab": "Emerald Slab",
       "death.attack.q11": "%1$s tried to catalyze themselves",
+      "block.blahmod.emerald_slab": "Emerald Slab",
       "death.attack.q12": "%1$s\u0027s haed caught on fire",
-      "block.blahmod.petrified_planks_wall": "Petrified Planks Wall",
       "death.attack.q13": "%1$s did not need to /q",
+      "block.blahmod.petrified_planks_wall": "Petrified Planks Wall",
       "block.blahmod.warped_side_slab": "Warped Side Slab",
       "item.blahmod.obsidian_construct": "Obsidian Construct",
       "death.attack.q40.player": "�e%1$s left the game",
-      "block.blahmod.polished_scoria_slab": "Polished Scoria Slab",
       "block.blahmod.stripped_dark_matter_log": "Stripped Dark Matter Log",
+      "block.blahmod.polished_scoria_slab": "Polished Scoria Slab",
       "block.blahmod.dread_fence": "Dread Fence",
-      "block.blahmod.stripped_tropics_wood": "Stripped Tropics Wood",
       "block.blahmod.tropics_stairs": "Tropics Stairs",
+      "block.blahmod.stripped_tropics_wood": "Stripped Tropics Wood",
       "block.blahmod.sulphur_ore_nc": "Sulphur Ore",
       "death.attack.q3.player": "%1$s killed themselves",
       "block.blahmod.ruby_side_slab": "Ruby Side Slab",
@@ -18000,7 +18261,6 @@
       "block.blahmod.amethyst_block": "Block of Amethyst",
       "block.blahmod.oak_secret_door": "Oak Secret Door",
       "death.attack.q41": "%1$s, �cR�6A�eI�aN�bB�9O�dW�cL�6O�eL�aP�bL�9Z",
-      "biome.blahmod.spooky_woods": "Weeping Woods",
       "block.blahmod.sus_bubble_coral_block": "Suspended Bubble Coral Block",
       "death.attack.q32.player": "%1$s was killed to death",
       "item.blahmod.sapphire_armor_helmet": "Sapphire Helmet",
@@ -18407,7 +18667,7 @@
       "block.blahmod.dread_door": "Dread Door",
       "block.blahmod.whitewood_door": "Whitewood Door",
       "block.blahmod.tadanite_ore": "�aTadanite Ore",
-      "block.blahmod.webstone": "Cobbed stone",
+      "block.blahmod.webstone": "Webstone",
       "item.blahmod.lumite_armor_leggings": "�6Lumite Leggings",
       "item.minecraft.tipped_arrow.effect.warmth": "Arrow of Ice Resistance",
       "block.blahmod.frost_wood_log": "Frost Log",
@@ -18479,11 +18739,11 @@
     "name": "~",
     "children": [
       {
-        "name": "Scoria",
+        "name": "Tropics",
         "children": []
       },
       {
-        "name": "Caves",
+        "name": "Lumite Stuff",
         "children": []
       },
       {
@@ -18491,11 +18751,11 @@
         "children": []
       },
       {
-        "name": "Tadanite Stuff",
+        "name": "Cedar Grove",
         "children": []
       },
       {
-        "name": "Tropics",
+        "name": "Dread",
         "children": []
       },
       {
@@ -18508,15 +18768,7 @@
         ]
       },
       {
-        "name": "Nether Stuff",
-        "children": []
-      },
-      {
-        "name": "Vanilla Changes",
-        "children": []
-      },
-      {
-        "name": "Dread",
+        "name": "Gem Stuff",
         "children": []
       },
       {
@@ -18524,15 +18776,23 @@
         "children": []
       },
       {
-        "name": "Cedar Grove",
+        "name": "Caves",
         "children": []
       },
       {
-        "name": "Lumite Stuff",
+        "name": "Tadanite Stuff",
         "children": []
       },
       {
-        "name": "Gem Stuff",
+        "name": "Vanilla Changes",
+        "children": []
+      },
+      {
+        "name": "Nether Stuff",
+        "children": []
+      },
+      {
+        "name": "Scoria",
         "children": []
       }
     ]
