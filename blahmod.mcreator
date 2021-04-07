@@ -17805,8 +17805,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Skylands/FunnyBiomes"
+      }
     },
     {
       "name": "XenonCrystalCluster",
@@ -18829,5 +18828,5 @@
     "modElementsPackage": "net.mcreator.blahmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100112313
+  "mcreatorVersion": 202100199999
 }
