@@ -9,7 +9,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
-import net.minecraft.util.Mirror;
 import net.minecraft.util.Direction;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
@@ -29,11 +28,11 @@ import net.mcreator.blahmod.itemgroup.CreativeTabBlahBlocksItemGroup;
 import net.mcreator.blahmod.BlahmodModElements;
 
 @BlahmodModElements.ModElement.Tag
-public class ArgonCrystalClusterBlock extends BlahmodModElements.ModElement {
-	@ObjectHolder("blahmod:argon_crystal_cluster")
+public class XenonCrystalBlockBlock extends BlahmodModElements.ModElement {
+	@ObjectHolder("blahmod:xenon_crystal_block")
 	public static final Block block = null;
-	public ArgonCrystalClusterBlock(BlahmodModElements instance) {
-		super(instance, 1720);
+	public XenonCrystalBlockBlock(BlahmodModElements instance) {
+		super(instance, 1747);
 	}
 
 	@Override
@@ -51,10 +50,10 @@ public class ArgonCrystalClusterBlock extends BlahmodModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.SHROOMLIGHT).hardnessAndResistance(0.9f, 0f).setLightLevel(s -> 4)
-					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
-			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("argon_crystal_cluster");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.SHROOMLIGHT).hardnessAndResistance(0.9f, 0f).setLightLevel(s -> 4).notSolid()
+					.setOpaque((bs, br, bp) -> false));
+			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
+			setRegistryName("xenon_crystal_block");
 		}
 
 		@Override
@@ -67,23 +66,33 @@ public class ArgonCrystalClusterBlock extends BlahmodModElements.ModElement {
 			builder.add(FACING);
 		}
 
+		@Override
 		public BlockState rotate(BlockState state, Rotation rot) {
-			return state.with(FACING, rot.rotate(state.get(FACING)));
-		}
-
-		public BlockState mirror(BlockState state, Mirror mirrorIn) {
-			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
+			if (rot == Rotation.CLOCKWISE_90 || rot == Rotation.COUNTERCLOCKWISE_90) {
+				if ((Direction) state.get(FACING) == Direction.WEST || (Direction) state.get(FACING) == Direction.EAST) {
+					return state.with(FACING, Direction.UP);
+				} else if ((Direction) state.get(FACING) == Direction.UP || (Direction) state.get(FACING) == Direction.DOWN) {
+					return state.with(FACING, Direction.WEST);
+				}
+			}
+			return state;
 		}
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			Direction facing = context.getFace();;
+			Direction facing = context.getFace();
+			if (facing == Direction.WEST || facing == Direction.EAST)
+				facing = Direction.UP;
+			else if (facing == Direction.NORTH || facing == Direction.SOUTH)
+				facing = Direction.EAST;
+			else
+				facing = Direction.SOUTH;;
 			return this.getDefaultState().with(FACING, facing);
 		}
 
 		@Override
 		public MaterialColor getMaterialColor() {
-			return MaterialColor.MAGENTA;
+			return MaterialColor.DIAMOND;
 		}
 	}
 }

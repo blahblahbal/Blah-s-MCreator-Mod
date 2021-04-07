@@ -2,16 +2,16 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "kryptoncrystal",
+    "texture": "neon_lamp",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "crystalthing:krypton",
-    "rotationMode": 4,
-    "emissiveRendering": false,
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Krypton Crystal Cluster",
+    "name": "Neon Lamp",
     "specialInfo": [],
-    "hardness": 0.9,
-    "resistance": 0.0,
+    "hardness": 1.1,
+    "resistance": 1.1,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -46,7 +46,7 @@
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": true,
+    "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
@@ -57,7 +57,7 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "LIME",
+    "colorOnMap": "DIAMOND",
     "creativePickItem": {
       "value": ""
     },
@@ -70,11 +70,11 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "soundOnStep": {
       "value": "SHROOMLIGHT"
     },
-    "luminance": 4,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "spawnParticles": false,

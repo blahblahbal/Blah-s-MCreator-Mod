@@ -2,15 +2,15 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "kryptoncrystal",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "crystalthing:krypton",
-    "rotationMode": 4,
+    "texture": "xenon_crystal_block_top",
+    "textureTop": "xenon_crystal_block_top",
+    "textureLeft": "xenon_crystal_block_side",
+    "textureFront": "xenon_crystal_block_side",
+    "textureRight": "xenon_crystal_block_side",
+    "textureBack": "xenon_crystal_block_side",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 5,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Krypton Crystal Cluster",
+    "name": "Xenon Crystal Block",
     "specialInfo": [],
     "hardness": 0.9,
     "resistance": 0.0,
@@ -57,7 +57,7 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "LIME",
+    "colorOnMap": "DIAMOND",
     "creativePickItem": {
       "value": ""
     },
@@ -70,7 +70,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "soundOnStep": {
       "value": "SHROOMLIGHT"
     },
