@@ -1,11 +1,18 @@
 package net.mcreator.blahmod.procedures;
 
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.block.Blocks;
+
+import net.mcreator.blahmod.BlahmodModElements;
+import net.mcreator.blahmod.BlahmodMod;
+
+import java.util.Map;
+
 @BlahmodModElements.ModElement.Tag
 public class SpookyWebsAdditionalGenerationConditionProcedure extends BlahmodModElements.ModElement {
-
 	public SpookyWebsAdditionalGenerationConditionProcedure(BlahmodModElements instance) {
 		super(instance, 1724);
-
 	}
 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {
@@ -29,12 +36,10 @@ public class SpookyWebsAdditionalGenerationConditionProcedure extends BlahmodMod
 				BlahmodMod.LOGGER.warn("Failed to load dependency world for procedure SpookyWebsAdditionalGenerationCondition!");
 			return false;
 		}
-
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		boolean found = false;
 		double sx = 0;
 		double sy = 0;
@@ -44,7 +49,5 @@ public class SpookyWebsAdditionalGenerationConditionProcedure extends BlahmodMod
 			return (true);
 		}
 		return (false);
-
 	}
-
 }
