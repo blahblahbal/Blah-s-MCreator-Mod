@@ -1,11 +1,11 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "tadanitehoe",
     "customModelName": "Normal",
-    "name": "§aTadanite Hoe",
+    "name": "ï¿½aTadanite Hoe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

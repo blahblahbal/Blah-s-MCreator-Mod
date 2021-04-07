@@ -15,6 +15,7 @@ import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.biome.MobSpawnInfo;
+import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
@@ -55,6 +56,7 @@ public class NetherCoreDesertBiome extends BlahmodModElements.ModElement {
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(FrostSandBlock.block.getDefaultState(),
 								NetherfrostBlock.block.getDefaultState(), NetherfrostBlock.block.getDefaultState())));
+				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.GHAST, 10, 1, 2));
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EskimoZombieEntity.entity, 2, 3, 5));

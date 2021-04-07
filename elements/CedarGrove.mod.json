@@ -1,5 +1,5 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "biome",
   "definition": {
     "name": "Cedar Grove",
@@ -93,7 +93,8 @@
       "MonsterRooms",
       "Structures",
       "Ores",
-      "DefaultFlowers"
+      "DefaultFlowers",
+      "FrozenTopLayer"
     ],
     "spawnEntries": [
       {

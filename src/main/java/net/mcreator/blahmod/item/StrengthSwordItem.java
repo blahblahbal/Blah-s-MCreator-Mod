@@ -60,7 +60,7 @@ public class StrengthSwordItem extends BlahmodModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77Strength II"));
+				list.add(new StringTextComponent("\uFFFD7Strength II"));
 			}
 
 			@Override

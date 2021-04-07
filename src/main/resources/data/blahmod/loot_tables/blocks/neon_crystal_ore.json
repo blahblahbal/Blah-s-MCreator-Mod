@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "blahmod:neon_crystal",
+          "name": "blahmod:deleted_mod_element",
           "weight": 1,
           "conditions": [
             {
@@ -43,7 +43,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "blahmod:neon_crystal_ore",
+          "name": "blahmod:deleted_mod_element",
           "weight": 1,
           "conditions": [
             {

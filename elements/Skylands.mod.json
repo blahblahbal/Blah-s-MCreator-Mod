@@ -1,67 +1,16 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      {
-        "value": "mountains"
-      },
-      {
-        "value": "badlands"
-      },
-      {
-        "value": "desert"
-      },
-      {
-        "value": "snowy_tundra"
-      },
-      {
-        "value": "snowy_mountains"
-      },
-      {
-        "value": "forest_hills"
-      },
-      {
-        "value": "jungle"
-      },
-      {
-        "value": "smaller_extreme_hills"
-      },
-      {
-        "value": "wooded_badlands_plateau"
-      },
-      {
-        "value": "mutated_extreme_hills"
-      },
-      {
-        "value": "mutated_forest"
-      },
-      {
-        "value": "mutated_jungle"
-      },
-      {
-        "value": "roofed_forest"
-      },
-      {
-        "value": "CUSTOM:SkyPlains"
-      },
-      {
-        "value": "CUSTOM:SkyForest"
-      },
-      {
-        "value": "CUSTOM:SkyTaiga"
-      },
-      {
-        "value": "CUSTOM:SkyBirchForest"
-      },
-      {
-        "value": "CUSTOM:SkySavanna"
-      },
       {
         "value": "CUSTOM:DarkMatter"
       },
       {
         "value": "CUSTOM:Ancient"
+      },
+      {
+        "value": "CUSTOM:SpookyWoods"
       }
     ],
     "worldGenType": "End like gen",

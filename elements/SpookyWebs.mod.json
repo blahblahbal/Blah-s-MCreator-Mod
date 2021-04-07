@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "structure",
+  "definition": {
+    "structure": "cobwebstructurethingybecausemcreatorbigstupid",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000000,
+    "minCountPerChunk": 16,
+    "maxCountPerChunk": 16,
+    "spawnLocation": "Air",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:Skylands"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SkyForest"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "SpookyWebsAdditionalGenerationCondition"
+    }
+  }
+}

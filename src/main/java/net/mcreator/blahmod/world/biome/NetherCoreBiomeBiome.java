@@ -25,6 +25,7 @@ import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.MobSpawnInfo;
+import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
@@ -74,6 +75,7 @@ public class NetherCoreBiomeBiome extends BlahmodModElements.ModElement {
 										.setMaxWaterDepth(0).build())
 						.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
 						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(3, 0.1F, 1))));
+				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				biome = new Biome.Builder().precipitation(Biome.RainType.NONE).category(Biome.Category.NONE).depth(0.1f).scale(0.2f).temperature(0.1f)
 						.downfall(0f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())

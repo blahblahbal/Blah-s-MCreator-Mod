@@ -1,11 +1,11 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "lumiteingot",
     "customModelName": "Normal",
-    "name": "§6Lumite Ingot",
+    "name": "ï¿½6Lumite Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

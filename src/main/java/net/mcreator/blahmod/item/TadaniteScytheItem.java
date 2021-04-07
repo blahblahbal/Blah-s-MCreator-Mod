@@ -45,7 +45,7 @@ public class TadaniteScytheItem extends BlahmodModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A7eEfficient"));
+				list.add(new StringTextComponent("\uFFFDeEfficient"));
 			}
 
 			@Override

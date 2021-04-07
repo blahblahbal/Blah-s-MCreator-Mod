@@ -7,9 +7,9 @@ import net.minecraftforge.fml.network.FMLPlayMessages;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
-import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
+import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -31,7 +31,6 @@ import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
-import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.MobEntity;
@@ -58,6 +57,7 @@ public class EskimoZombieEntity extends BlahmodModElements.ModElement {
 	public EskimoZombieEntity(BlahmodModElements instance) {
 		super(instance, 76);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ModelRegisterHandler());
+		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -83,7 +83,6 @@ public class EskimoZombieEntity extends BlahmodModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		DeferredWorkQueue.runLater(this::setupAttributes);
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				MonsterEntity::canMonsterSpawn);
 	}
@@ -103,16 +102,21 @@ public class EskimoZombieEntity extends BlahmodModElements.ModElement {
 			});
 		}
 	}
-	private void setupAttributes() {
-		AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.2);
-		ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 20);
-		ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
-		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
-		ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 1);
-		ammma = ammma.createMutableAttribute(Attributes.ZOMBIE_SPAWN_REINFORCEMENTS);
-		GlobalEntityTypeAttributes.put(entity, ammma.create());
+
+	private static class EntityAttributesRegisterHandler {
+		@SubscribeEvent
+		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
+			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.2);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 20);
+			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 1);
+			ammma = ammma.createMutableAttribute(Attributes.ZOMBIE_SPAWN_REINFORCEMENTS);
+			event.put(entity, ammma.create());
+		}
 	}
+
 	public static class CustomEntity extends ZombieEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
