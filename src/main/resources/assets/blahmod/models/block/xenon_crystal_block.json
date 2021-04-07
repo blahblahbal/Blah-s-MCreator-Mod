@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blahmod:blocks/xenon_crystal_block_top",
+    "up": "blahmod:blocks/xenon_crystal_block_top",
+    "north": "blahmod:blocks/xenon_crystal_block_side",
+    "east": "blahmod:blocks/xenon_crystal_block_side",
+    "south": "blahmod:blocks/xenon_crystal_block_side",
+    "west": "blahmod:blocks/xenon_crystal_block_side",
+    "particle": "blahmod:blocks/xenon_crystal_block_top"
+  }
+}

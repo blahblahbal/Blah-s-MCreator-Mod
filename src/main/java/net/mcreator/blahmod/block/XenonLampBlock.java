@@ -8,6 +8,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.loot.LootContext;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -21,12 +23,15 @@ import net.minecraft.block.Block;
 import net.mcreator.blahmod.itemgroup.CreativeTabBlahBlocksItemGroup;
 import net.mcreator.blahmod.BlahmodModElements;
 
+import java.util.List;
+import java.util.Collections;
+
 @BlahmodModElements.ModElement.Tag
-public class ArgonCrystalClusterBlock extends BlahmodModElements.ModElement {
-	@ObjectHolder("blahmod:argon_crystal_cluster")
+public class XenonLampBlock extends BlahmodModElements.ModElement {
+	@ObjectHolder("blahmod:xenon_lamp")
 	public static final Block block = null;
-	public ArgonCrystalClusterBlock(BlahmodModElements instance) {
-		super(instance, 1720);
+	public XenonLampBlock(BlahmodModElements instance) {
+		super(instance, 1743);
 	}
 
 	@Override
@@ -43,9 +48,10 @@ public class ArgonCrystalClusterBlock extends BlahmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.SHROOMLIGHT).hardnessAndResistance(0.9f, 0f).setLightLevel(s -> 4)
-					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
-			setRegistryName("argon_crystal_cluster");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.SHROOMLIGHT).hardnessAndResistance(1.1f, 1.1f).setLightLevel(s -> 15)
+					.notSolid().setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true)
+					.setOpaque((bs, br, bp) -> false));
+			setRegistryName("xenon_lamp");
 		}
 
 		@Override
@@ -55,7 +61,15 @@ public class ArgonCrystalClusterBlock extends BlahmodModElements.ModElement {
 
 		@Override
 		public MaterialColor getMaterialColor() {
-			return MaterialColor.MAGENTA;
+			return MaterialColor.DIAMOND;
+		}
+
+		@Override
+		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
+			if (!dropsOriginal.isEmpty())
+				return dropsOriginal;
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 }

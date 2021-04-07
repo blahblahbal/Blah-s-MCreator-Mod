@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "block",
   "definition": {
     "texture": "xenoncrystal",
@@ -10,10 +10,10 @@
     "textureBack": "",
     "renderType": 12,
     "customModelName": "Cross model",
-    "rotationMode": 0,
+    "rotationMode": 3,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "xenoncrystal",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -74,7 +74,7 @@
     "soundOnStep": {
       "value": "SHROOMLIGHT"
     },
-    "luminance": 8,
+    "luminance": 4,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "spawnParticles": false,

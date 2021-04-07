@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "block",
   "definition": {
     "texture": "kryptoncrystal",
@@ -74,7 +74,7 @@
     "soundOnStep": {
       "value": "SHROOMLIGHT"
     },
-    "luminance": 8,
+    "luminance": 4,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "spawnParticles": false,
