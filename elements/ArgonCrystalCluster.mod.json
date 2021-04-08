@@ -13,7 +13,7 @@
     "rotationMode": 4,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "argoncrystal",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

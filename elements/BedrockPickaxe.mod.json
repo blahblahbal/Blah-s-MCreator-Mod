@@ -1,13 +1,13 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "bedrockpickaxe",
     "customModelName": "Normal",
-    "name": "ï¿½eBedrock Pickaxe",
+    "name": "§eBedrock Pickaxe",
     "specialInfo": [
-      "ï¿½cOmniharvest",
+      "§cOmniharvest",
       "Right-click Bedrock or Lumite Ore to mine it"
     ],
     "creativeTab": {

@@ -14915,60 +14915,6 @@
       "path": "~/Nether Core"
     },
     {
-      "name": "CoreGroveLargeTree2",
-      "type": "structure",
-      "sortid": 1470,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "core_grove_large_tree_2"
-    },
-    {
-      "name": "CGLT3",
-      "type": "structure",
-      "sortid": 1471,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "cglt_3"
-    },
-    {
-      "name": "CGLT4",
-      "type": "structure",
-      "sortid": 1472,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_4"
-    },
-    {
-      "name": "CGLT5",
-      "type": "structure",
-      "sortid": 1473,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_5"
-    },
-    {
-      "name": "CGST2",
-      "type": "structure",
-      "sortid": 1474,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_2"
-    },
-    {
-      "name": "CGST3",
-      "type": "structure",
-      "sortid": 1475,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_3"
-    },
-    {
       "name": "SmallIceSpike2",
       "type": "structure",
       "sortid": 1476,
@@ -14976,132 +14922,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "small_ice_spike_2"
-    },
-    {
-      "name": "CGLT6",
-      "type": "structure",
-      "sortid": 1477,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_6"
-    },
-    {
-      "name": "CGLT7",
-      "type": "structure",
-      "sortid": 1478,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_7"
-    },
-    {
-      "name": "CGLT8",
-      "type": "structure",
-      "sortid": 1479,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_8"
-    },
-    {
-      "name": "CGLT9",
-      "type": "structure",
-      "sortid": 1480,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_9"
-    },
-    {
-      "name": "CGLT10",
-      "type": "structure",
-      "sortid": 1481,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_10"
-    },
-    {
-      "name": "CGLT11",
-      "type": "structure",
-      "sortid": 1482,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_11"
-    },
-    {
-      "name": "CGLT12",
-      "type": "structure",
-      "sortid": 1483,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_12"
-    },
-    {
-      "name": "CGLT13",
-      "type": "structure",
-      "sortid": 1484,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_13"
-    },
-    {
-      "name": "CGLT14",
-      "type": "structure",
-      "sortid": 1485,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_14"
-    },
-    {
-      "name": "CGLT15",
-      "type": "structure",
-      "sortid": 1486,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_15"
-    },
-    {
-      "name": "CGST4",
-      "type": "structure",
-      "sortid": 1487,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_4"
-    },
-    {
-      "name": "CGST5",
-      "type": "structure",
-      "sortid": 1488,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_5"
-    },
-    {
-      "name": "CGST6",
-      "type": "structure",
-      "sortid": 1489,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_6"
-    },
-    {
-      "name": "CGST7",
-      "type": "structure",
-      "sortid": 1490,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_7"
     },
     {
       "name": "CGST8",
@@ -15174,339 +14994,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sis_5"
-    },
-    {
-      "name": "CGST9",
-      "type": "structure",
-      "sortid": 1499,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_9"
-    },
-    {
-      "name": "CGST10",
-      "type": "structure",
-      "sortid": 1500,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_10"
-    },
-    {
-      "name": "CGST11",
-      "type": "structure",
-      "sortid": 1501,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_11"
-    },
-    {
-      "name": "CGST12",
-      "type": "structure",
-      "sortid": 1502,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_12"
-    },
-    {
-      "name": "CGST13",
-      "type": "structure",
-      "sortid": 1503,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_13"
-    },
-    {
-      "name": "CGST14",
-      "type": "structure",
-      "sortid": 1504,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_14"
-    },
-    {
-      "name": "CGST15",
-      "type": "structure",
-      "sortid": 1505,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_15"
-    },
-    {
-      "name": "CGLT16",
-      "type": "structure",
-      "sortid": 1506,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_16"
-    },
-    {
-      "name": "CGLT17",
-      "type": "structure",
-      "sortid": 1507,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_17"
-    },
-    {
-      "name": "CGLT18",
-      "type": "structure",
-      "sortid": 1508,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_18"
-    },
-    {
-      "name": "CGLT19",
-      "type": "structure",
-      "sortid": 1509,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_19"
-    },
-    {
-      "name": "CGLT20",
-      "type": "structure",
-      "sortid": 1510,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_20"
-    },
-    {
-      "name": "CGST16",
-      "type": "structure",
-      "sortid": 1511,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_16"
-    },
-    {
-      "name": "CGST17",
-      "type": "structure",
-      "sortid": 1512,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_17"
-    },
-    {
-      "name": "CGST18",
-      "type": "structure",
-      "sortid": 1513,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_18"
-    },
-    {
-      "name": "CGST19",
-      "type": "structure",
-      "sortid": 1514,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_19"
-    },
-    {
-      "name": "CGST20",
-      "type": "structure",
-      "sortid": 1515,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_20"
-    },
-    {
-      "name": "CGST21",
-      "type": "structure",
-      "sortid": 1516,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_21"
-    },
-    {
-      "name": "CGST22",
-      "type": "structure",
-      "sortid": 1517,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_22"
-    },
-    {
-      "name": "CGST23",
-      "type": "structure",
-      "sortid": 1518,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_23"
-    },
-    {
-      "name": "CGST24",
-      "type": "structure",
-      "sortid": 1519,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_24"
-    },
-    {
-      "name": "CGST25",
-      "type": "structure",
-      "sortid": 1520,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_25"
-    },
-    {
-      "name": "CGST26",
-      "type": "structure",
-      "sortid": 1521,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_26"
-    },
-    {
-      "name": "CGST27",
-      "type": "structure",
-      "sortid": 1522,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_27"
-    },
-    {
-      "name": "CGST28",
-      "type": "structure",
-      "sortid": 1523,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_28"
-    },
-    {
-      "name": "CGST29",
-      "type": "structure",
-      "sortid": 1524,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_29"
-    },
-    {
-      "name": "CGST30",
-      "type": "structure",
-      "sortid": 1525,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_30"
-    },
-    {
-      "name": "CGLT21",
-      "type": "structure",
-      "sortid": 1526,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_21"
-    },
-    {
-      "name": "CGLT22",
-      "type": "structure",
-      "sortid": 1527,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_22"
-    },
-    {
-      "name": "CGLT23",
-      "type": "structure",
-      "sortid": 1528,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_23"
-    },
-    {
-      "name": "CGLT24",
-      "type": "structure",
-      "sortid": 1529,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_24"
-    },
-    {
-      "name": "CGLT25",
-      "type": "structure",
-      "sortid": 1530,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_25"
-    },
-    {
-      "name": "CGLT26",
-      "type": "structure",
-      "sortid": 1531,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_26"
-    },
-    {
-      "name": "CGLT27",
-      "type": "structure",
-      "sortid": 1532,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_27"
-    },
-    {
-      "name": "CGLT28",
-      "type": "structure",
-      "sortid": 1533,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_28"
-    },
-    {
-      "name": "CGLT29",
-      "type": "structure",
-      "sortid": 1534,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_29"
-    },
-    {
-      "name": "CGLT30",
-      "type": "structure",
-      "sortid": 1535,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_30"
     },
     {
       "name": "NetherCoreFreezeWater",
@@ -17768,46 +17255,6 @@
       "path": "~/Skylands/FunnyBiomes"
     },
     {
-      "name": "SpookyWebs",
-      "type": "structure",
-      "sortid": 1723,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "spooky_webs",
-      "path": "~/Skylands/FunnyBiomes"
-    },
-    {
-      "name": "SpookyWebsAdditionalGenerationCondition",
-      "type": "procedure",
-      "sortid": 1724,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "spooky_webs_additional_generation_condition",
-      "metadata": {
-        "return_type": "LOGIC",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "XenonCrystalCluster",
       "type": "block",
       "sortid": 1723,
@@ -18166,6 +17613,236 @@
       "ids": {},
       "registry_name": "neon_crystal_block",
       "path": "~/Crystals"
+    },
+    {
+      "name": "XenonLampR",
+      "type": "recipe",
+      "sortid": 1751,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenon_lamp_r",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "ArgonLampR",
+      "type": "recipe",
+      "sortid": 1752,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "argon_lamp_r",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "KryptonLampR",
+      "type": "recipe",
+      "sortid": 1753,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krypton_lamp_r",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "NeonLampR",
+      "type": "recipe",
+      "sortid": 1754,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neon_lamp_r",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "XenonLampD",
+      "type": "recipe",
+      "sortid": 1755,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenon_lamp_d",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "ArgonLampD",
+      "type": "recipe",
+      "sortid": 1756,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "argon_lamp_d",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "KryptonLampD",
+      "type": "recipe",
+      "sortid": 1757,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krypton_lamp_d",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "NeonLampD",
+      "type": "recipe",
+      "sortid": 1758,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neon_lamp_d",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "CoreNyliumLT",
+      "type": "loottable",
+      "sortid": 1759,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "core_nylium_lt",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "NetherCoreGroveAir",
+      "type": "block",
+      "sortid": 1760,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_core_grove_air",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "NetherCoreGroveAirUpdate",
+      "type": "procedure",
+      "sortid": 1761,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_core_grove_air_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "NetherCoreGroveAirPro",
+      "type": "procedure",
+      "sortid": 1761,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_core_grove_air_pro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 1764,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ore",
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "UraniumDust",
+      "type": "item",
+      "sortid": 1765,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_dust",
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "UraniumOreLT",
+      "type": "loottable",
+      "sortid": 1765,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ore_lt",
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "CoreFungus",
+      "type": "plant",
+      "sortid": 1766,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "core_fungus",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "NetherCoreGlade",
+      "type": "biome",
+      "sortid": 1767,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_core_glade",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "NetherCoreAirGen",
+      "type": "structure",
+      "sortid": 1768,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_core_air_gen",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "Asdflkja",
+      "type": "biome",
+      "sortid": 1769,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asdflkja",
+      "path": "~/Nether Core"
     }
   ],
   "variable_elements": [],
@@ -18190,7 +17867,7 @@
       "block.blahmod.amethyst_ore_gem_biome": "Amethyst Ore",
       "block.blahmod.citrine_leaves": "Citrine Leaves",
       "death.attack.q37.player": "%1$s was taken away to the funny farm",
-      "item.blahmod.tadanite_axe": "ï¿½aTadanite Axe",
+      "item.blahmod.tadanite_axe": "§aTadanite Axe",
       "block.blahmod.whitewood_secret_door": "Whitewood Secret Door",
       "item.blahmod.topaz_staff": "Topaz Staff",
       "block.blahmod.chiseled_bone_sandstone": "Chiseled Bonesandstone",
@@ -18206,7 +17883,7 @@
       "block.blahmod.gold_side_slab": "Gold Side Slab",
       "block.blahmod.obsidian_wall": "Obsidian Wall",
       "block.blahmod.cloud_stone_secret_door": "Cloud Stone Secret Door",
-      "item.blahmod.tadanite_pickaxe": "ï¿½aTadanite Pickaxe",
+      "item.blahmod.tadanite_pickaxe": "§aTadanite Pickaxe",
       "block.blahmod.tropics_stone": "Cloud Stone",
       "block.blahmod.petrified_wood": "Petrified Wood",
       "block.blahmod.cactus_side_slab": "Cactus Side Slab",
@@ -18249,7 +17926,7 @@
       "block.blahmod.petrified_planks_wall": "Petrified Planks Wall",
       "block.blahmod.warped_side_slab": "Warped Side Slab",
       "item.blahmod.obsidian_construct": "Obsidian Construct",
-      "death.attack.q40.player": "ï¿½e%1$s left the game",
+      "death.attack.q40.player": "§e%1$s left the game",
       "block.blahmod.stripped_dark_matter_log": "Stripped Dark Matter Log",
       "block.blahmod.polished_scoria_slab": "Polished Scoria Slab",
       "block.blahmod.dread_fence": "Dread Fence",
@@ -18258,8 +17935,8 @@
       "block.blahmod.sulphur_ore_nc": "Sulphur Ore",
       "death.attack.q3.player": "%1$s killed themselves",
       "block.blahmod.ruby_side_slab": "Ruby Side Slab",
-      "item.blahmod.lumite_shovel": "ï¿½6Lumite Shovel",
-      "item.blahmod.lumite_pickaxe": "ï¿½6Lumite Pickaxe",
+      "item.blahmod.lumite_shovel": "§6Lumite Shovel",
+      "item.blahmod.lumite_pickaxe": "§6Lumite Pickaxe",
       "block.blahmod.obsidian_brick_slab": "Obsidian Brick Slab",
       "block.blahmod.blaze_brick": "Blaze Brick",
       "block.blahmod.citrine_ore": "Citrine Ore",
@@ -18276,7 +17953,7 @@
       "block.blahmod.sapphire_leaves": "Sapphire Leaves",
       "item.blahmod.tadanite_scythe": "Tadanite Scythe",
       "block.blahmod.sapphire_block": "Block of Sapphire",
-      "item.blahmod.bedrock_pickaxe": "ï¿½eBedrock Pickaxe",
+      "item.blahmod.bedrock_pickaxe": "§eBedrock Pickaxe",
       "block.blahmod.polished_netherrack": "Polished Netherrack",
       "block.blahmod.reinforced_chest": "Reinforced Chest",
       "block.blahmod.dread_rock_brick_stairs": "Dread Rock Brick Stairs",
@@ -18311,7 +17988,7 @@
       "block.blahmod.core_vine": "Core Vine",
       "item.blahmod.emerald_blast": "Emerald Blast",
       "block.blahmod.charred_scoria_stairs": "Charred Scoria Stairs",
-      "item.blahmod.strength_sword": "Strength Sword",
+      "item.blahmod.strength_sword": "Titan Blade",
       "death.attack.q0.player": "%1$s, that there\u0027s a bottomless piiiiiiiiiiiiiit......",
       "block.blahmod.zircon_stairs": "Zircon Stairs",
       "block.blahmod.argon_lamp": "Argon Lamp",
@@ -18338,6 +18015,7 @@
       "block.blahmod.saltrock_tile": "Saltrock Tiles",
       "death.attack.q20": "%1$s aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       "block.blahmod.charred_scoria_slab": "Charred Scoria Slab",
+      "block.blahmod.nether_core_grove_air": "Nether Core Grove Air",
       "block.blahmod.dark_matter_door": "Dark Matter Door",
       "block.blahmod.iron_side_slab": "Iron Side Slab",
       "item.blahmod.xenon_crystal": "Xenon Crystal Shard",
@@ -18360,15 +18038,16 @@
       "block.blahmod.polished_lightly_charred_scoria_stairs": "Polished Lightly Charred Scoria Stairs",
       "block.blahmod.coconut": "Coconut",
       "item.blahmod.stone_scythe": "Stone Scythe",
+      "biome.blahmod.asdflkja": "Asdflkja",
       "item.blahmod.emerald_staff": "Emerald Staff",
       "block.blahmod.mossy_end_stone_bricks": "Mossy End Stone Bricks",
       "biome.blahmod.nether_core_grove": "Nether Core Grove",
       "block.blahmod.lumite_block": "§6Block of Lumite",
-      "death.attack.q40": "ï¿½e%1$s left the game",
+      "death.attack.q40": "§e%1$s left the game",
       "block.blahmod.amethyst_block": "Block of Amethyst",
       "block.blahmod.oak_secret_door": "Oak Secret Door",
-      "death.attack.q41": "%1$s, ï¿½cRï¿½6Aï¿½eIï¿½aNï¿½bBï¿½9Oï¿½dWï¿½cLï¿½6Oï¿½eLï¿½aPï¿½bLï¿½9Z",
-      "biome.blahmod.spooky_woods": "Weeping Woods",
+      "death.attack.q41": "%1$s, §cR§6A§eI§aN§bB§9O§dW§cL§6O§eL§aP§bL§9Z",
+      "biome.blahmod.spooky_woods": "Spooky Woods",
       "block.blahmod.sus_bubble_coral_block": "Suspended Bubble Coral Block",
       "death.attack.q32.player": "%1$s was killed to death",
       "item.blahmod.sapphire_armor_helmet": "Sapphire Helmet",
@@ -18380,10 +18059,12 @@
       "block.blahmod.netherfrost_brick": "Netherfrost Brick",
       "block.blahmod.topaz_leaves": "Topaz Leaves",
       "death.attack.q38.player": "%1$s was carried away by birds",
-      "item.blahmod.molten_ice_bucket": "MoltenIce Bucket",
+      "item.blahmod.molten_ice_bucket": "Molten Ice Bucket",
       "item.blahmod.netherite_scythe": "Netherite Scythe",
+      "block.blahmod.core_fungus": "Core Fungus",
       "item.blahmod.sapphire_sword": "Sapphire Sword",
       "block.blahmod.topaz_ore_gem_biome": "Topaz Ore",
+      "block.blahmod.uranium_ore": "Uranium Ore",
       "block.blahmod.smooth_black_sandstone": "Cut Black Sandstone",
       "item.blahmod.frozen_rod": "Frozen Rod",
       "item.minecraft.lingering_potion.effect.warmth": "Lingering Ice Resistance",
@@ -18405,7 +18086,7 @@
       "itemGroup.tabcreative_tab_blah_items": "Blah Items",
       "block.blahmod.obsidian_brick": "Obsidian Brick",
       "block.blahmod.igneous_rock_tile": "Igneous Rock Tiles",
-      "item.blahmod.tadanite_hoe": "ï¿½aTadanite Hoe",
+      "item.blahmod.tadanite_hoe": "§aTadanite Hoe",
       "fluid.mineral_water": "MineralWater",
       "item.blahmod.lumite_armor_helmet": "§6Lumite Helmet",
       "block.blahmod.dark_matter_jelly_ore": "Dark Matter Jelly Ore",
@@ -18420,9 +18101,9 @@
       "block.blahmod.topaz_wall": "Topaz Wall",
       "block.blahmod.magnetite_tile": "Magnetite Tiles",
       "item.blahmod.obsidian_armor_boots": "Obsidian Boots",
-      "item.blahmod.mineral_water_bucket": "MineralWater Bucket",
+      "item.blahmod.mineral_water_bucket": "Mineral Water Bucket",
       "block.blahmod.jungle_secret_door": "Jungle Secret Door",
-      "item.blahmod.nether_core": "ï¿½4Nether Core Key",
+      "item.blahmod.nether_core": "§4Nether Core Key",
       "block.blahmod.polished_scoria_stairs": "Polished Scoria Stairs",
       "block.blahmod.dread_wood_side_slab": "Dread Side Slab",
       "block.blahmod.stone_secret_door": "Stone Secret Door",
@@ -18453,7 +18134,7 @@
       "block.blahmod.spider_cave_air": "Spider Cave Air",
       "biome.blahmod.dark_matter": "Dark Matter",
       "block.blahmod.diamond_gem_log": "Diamond Gem Log",
-      "item.blahmod.lumite_sword": "ï¿½6Lumite Sword",
+      "item.blahmod.lumite_sword": "§6Lumite Sword",
       "death.attack.q15.player": "%1$s became a zombie",
       "block.blahmod.frost_secret_door": "Frost Secret Door",
       "death.attack.q16.player": "%1$s\u0027s skeleton popped out",
@@ -18504,11 +18185,12 @@
       "item.blahmod.skylands": "Skylands Waynode",
       "block.blahmod.cedar_planks": "Cedar Planks",
       "block.blahmod.tadanite_side_slab": "Tadanite Side Slab",
-      "block.blahmod.cobble_secret_door": "Cactus Secret Door",
+      "block.blahmod.cobble_secret_door": "Cobblestone Secret Door",
       "block.blahmod.citrine_wall": "Citrine Wall",
       "block.blahmod.borderless_glass_pane": "Borderless Glass Pane",
       "item.blahmod.lumite_armor_chestplate": "§6Lumite Chestplate",
       "block.blahmod.tropics_trapdoor": "Tropics Trapdoor",
+      "biome.blahmod.nether_core_glade": "Nether Core Glade",
       "block.blahmod.cedar_trapdoor": "Cedar Trapdoor",
       "item.blahmod.tadanite_diamond": "§aTadanite Diamond",
       "entity.blahmod.ice_cube": "Ice Cube",
@@ -18526,7 +18208,7 @@
       "block.blahmod.frost_sand": "Frost Sand",
       "block.blahmod.zircon_slab": "Zircon Slab",
       "block.blahmod.tropics_planks": "Tropics Planks",
-      "item.blahmod.lumite_axe": "ï¿½6Lumite Axe",
+      "item.blahmod.lumite_axe": "§6Lumite Axe",
       "block.blahmod.nether_brick_side_slab": "Nether Bricks Side Slab",
       "block.blahmod.tropics_cobblestone": "Cloud Cobblestone",
       "death.attack.q39.player": "%1$s poked a cactus, but the cactus poked back",
@@ -18683,6 +18365,7 @@
       "death.attack.q34.player": "%1$s swallowed a porcupine",
       "biome.blahmod.gem_biome": "Gem Land",
       "block.blahmod.spruce_side_slab": "Spruce Side Slab",
+      "item.blahmod.uranium_dust": "Uranium Dust",
       "block.blahmod.sapphire_ore_gem_biome": "Sapphire Ore",
       "block.blahmod.dread_slab": "Dread Slab",
       "block.blahmod.citrine_stairs": "Citrine Stairs",
@@ -18723,7 +18406,7 @@
       "advancements.catalytic_inverter_achieve.descr": "Catalyze the Inverter",
       "biome.blahmod.sky_birch_forest": "Sky Birch Forest",
       "block.blahmod.tropics_fence_gate": "Tropics Fence Gate",
-      "item.blahmod.lumite_hoe": "ï¿½6Lumite Hoe",
+      "item.blahmod.lumite_hoe": "§6Lumite Hoe",
       "block.blahmod.cedar_stairs": "Cedar Stairs",
       "item.blahmod.tadanite_crystal": "§aTadanite Crystal",
       "death.attack.q41.player": "%1$s, ï¿½cRï¿½6Aï¿½eIï¿½aNï¿½bBï¿½9Oï¿½dWï¿½cLï¿½6Oï¿½eLï¿½aPï¿½bLï¿½9Z",
@@ -18807,7 +18490,7 @@
       "block.blahmod.ruby_block": "Block of Ruby",
       "block.blahmod.dread_trapdoor": "Dread Trapdoor",
       "death.attack.q24.player": "%1$s\u0027s skeleton hatched",
-      "item.blahmod.tadanite_shovel": "ï¿½aTadanite Shovel",
+      "item.blahmod.tadanite_shovel": "§aTadanite Shovel",
       "block.blahmod.iron_slab": "Iron Slab",
       "block.blahmod.soul_snow": "Soul Snow",
       "block.blahmod.dread_rock": "Dread Rock",
@@ -18816,7 +18499,7 @@
       "block.blahmod.ruby_stairs": "Ruby Stairs",
       "biome.blahmod.sky_taiga": "Sky Taiga",
       "block.blahmod.dark_matter_wood": "Dark Matter Wood",
-      "item.blahmod.tadanite_sword": "ï¿½aTadanite Sword",
+      "item.blahmod.tadanite_sword": "§aTadanite Sword",
       "block.blahmod.dread_log": "Dread Log",
       "death.attack.q29.player": "%1$s was dropkicked to Mars",
       "item.minecraft.splash_potion.effect.freezing": "Splash Freezing",

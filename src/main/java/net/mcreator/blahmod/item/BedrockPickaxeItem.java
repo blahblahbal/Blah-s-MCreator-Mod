@@ -66,7 +66,7 @@ public class BedrockPickaxeItem extends BlahmodModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\uFFFDcOmniharvest"));
+				list.add(new StringTextComponent("\u00A7cOmniharvest"));
 				list.add(new StringTextComponent("Right-click Bedrock or Lumite Ore to mine it"));
 			}
 

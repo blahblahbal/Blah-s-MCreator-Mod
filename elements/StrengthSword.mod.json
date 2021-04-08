@@ -1,13 +1,13 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "strength_sword",
     "customModelName": "Normal",
-    "name": "Strength Sword",
+    "name": "Titan Blade",
     "specialInfo": [
-      "ï¿½7Strength II"
+      "§7Strength II"
     ],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

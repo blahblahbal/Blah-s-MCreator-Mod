@@ -24,7 +24,7 @@ public class CobbleSecretDoorBlock extends BlahmodModElements.ModElement {
 	@ObjectHolder("blahmod:cobble_secret_door")
 	public static final Block block = null;
 	public CobbleSecretDoorBlock(BlahmodModElements instance) {
-		super(instance, 1083);
+		super(instance, 362);
 	}
 
 	@Override
