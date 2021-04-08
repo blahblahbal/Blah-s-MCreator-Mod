@@ -1,11 +1,11 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "lumitehoe",
     "customModelName": "Normal",
-    "name": "ï¿½6Lumite Hoe",
+    "name": "§6Lumite Hoe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

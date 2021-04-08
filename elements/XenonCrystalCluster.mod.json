@@ -8,9 +8,9 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
-    "rotationMode": 3,
+    "renderType": 2,
+    "customModelName": "crystalthing:xenon",
+    "rotationMode": 4,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "xenoncrystal",
@@ -74,7 +74,7 @@
     "soundOnStep": {
       "value": "SHROOMLIGHT"
     },
-    "luminance": 4,
+    "luminance": 8,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "spawnParticles": false,

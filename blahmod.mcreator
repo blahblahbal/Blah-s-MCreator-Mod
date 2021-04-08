@@ -14915,60 +14915,6 @@
       "path": "~/Nether Core"
     },
     {
-      "name": "CoreGroveLargeTree2",
-      "type": "structure",
-      "sortid": 1470,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "core_grove_large_tree_2"
-    },
-    {
-      "name": "CGLT3",
-      "type": "structure",
-      "sortid": 1471,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "cglt_3"
-    },
-    {
-      "name": "CGLT4",
-      "type": "structure",
-      "sortid": 1472,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_4"
-    },
-    {
-      "name": "CGLT5",
-      "type": "structure",
-      "sortid": 1473,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_5"
-    },
-    {
-      "name": "CGST2",
-      "type": "structure",
-      "sortid": 1474,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_2"
-    },
-    {
-      "name": "CGST3",
-      "type": "structure",
-      "sortid": 1475,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_3"
-    },
-    {
       "name": "SmallIceSpike2",
       "type": "structure",
       "sortid": 1476,
@@ -14976,132 +14922,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "small_ice_spike_2"
-    },
-    {
-      "name": "CGLT6",
-      "type": "structure",
-      "sortid": 1477,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_6"
-    },
-    {
-      "name": "CGLT7",
-      "type": "structure",
-      "sortid": 1478,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_7"
-    },
-    {
-      "name": "CGLT8",
-      "type": "structure",
-      "sortid": 1479,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_8"
-    },
-    {
-      "name": "CGLT9",
-      "type": "structure",
-      "sortid": 1480,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_9"
-    },
-    {
-      "name": "CGLT10",
-      "type": "structure",
-      "sortid": 1481,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_10"
-    },
-    {
-      "name": "CGLT11",
-      "type": "structure",
-      "sortid": 1482,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_11"
-    },
-    {
-      "name": "CGLT12",
-      "type": "structure",
-      "sortid": 1483,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_12"
-    },
-    {
-      "name": "CGLT13",
-      "type": "structure",
-      "sortid": 1484,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_13"
-    },
-    {
-      "name": "CGLT14",
-      "type": "structure",
-      "sortid": 1485,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_14"
-    },
-    {
-      "name": "CGLT15",
-      "type": "structure",
-      "sortid": 1486,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_15"
-    },
-    {
-      "name": "CGST4",
-      "type": "structure",
-      "sortid": 1487,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_4"
-    },
-    {
-      "name": "CGST5",
-      "type": "structure",
-      "sortid": 1488,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_5"
-    },
-    {
-      "name": "CGST6",
-      "type": "structure",
-      "sortid": 1489,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_6"
-    },
-    {
-      "name": "CGST7",
-      "type": "structure",
-      "sortid": 1490,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_7"
     },
     {
       "name": "CGST8",
@@ -15174,339 +14994,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sis_5"
-    },
-    {
-      "name": "CGST9",
-      "type": "structure",
-      "sortid": 1499,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_9"
-    },
-    {
-      "name": "CGST10",
-      "type": "structure",
-      "sortid": 1500,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_10"
-    },
-    {
-      "name": "CGST11",
-      "type": "structure",
-      "sortid": 1501,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_11"
-    },
-    {
-      "name": "CGST12",
-      "type": "structure",
-      "sortid": 1502,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_12"
-    },
-    {
-      "name": "CGST13",
-      "type": "structure",
-      "sortid": 1503,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_13"
-    },
-    {
-      "name": "CGST14",
-      "type": "structure",
-      "sortid": 1504,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_14"
-    },
-    {
-      "name": "CGST15",
-      "type": "structure",
-      "sortid": 1505,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_15"
-    },
-    {
-      "name": "CGLT16",
-      "type": "structure",
-      "sortid": 1506,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_16"
-    },
-    {
-      "name": "CGLT17",
-      "type": "structure",
-      "sortid": 1507,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_17"
-    },
-    {
-      "name": "CGLT18",
-      "type": "structure",
-      "sortid": 1508,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_18"
-    },
-    {
-      "name": "CGLT19",
-      "type": "structure",
-      "sortid": 1509,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_19"
-    },
-    {
-      "name": "CGLT20",
-      "type": "structure",
-      "sortid": 1510,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_20"
-    },
-    {
-      "name": "CGST16",
-      "type": "structure",
-      "sortid": 1511,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_16"
-    },
-    {
-      "name": "CGST17",
-      "type": "structure",
-      "sortid": 1512,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_17"
-    },
-    {
-      "name": "CGST18",
-      "type": "structure",
-      "sortid": 1513,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_18"
-    },
-    {
-      "name": "CGST19",
-      "type": "structure",
-      "sortid": 1514,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_19"
-    },
-    {
-      "name": "CGST20",
-      "type": "structure",
-      "sortid": 1515,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_20"
-    },
-    {
-      "name": "CGST21",
-      "type": "structure",
-      "sortid": 1516,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_21"
-    },
-    {
-      "name": "CGST22",
-      "type": "structure",
-      "sortid": 1517,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_22"
-    },
-    {
-      "name": "CGST23",
-      "type": "structure",
-      "sortid": 1518,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_23"
-    },
-    {
-      "name": "CGST24",
-      "type": "structure",
-      "sortid": 1519,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_24"
-    },
-    {
-      "name": "CGST25",
-      "type": "structure",
-      "sortid": 1520,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_25"
-    },
-    {
-      "name": "CGST26",
-      "type": "structure",
-      "sortid": 1521,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_26"
-    },
-    {
-      "name": "CGST27",
-      "type": "structure",
-      "sortid": 1522,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_27"
-    },
-    {
-      "name": "CGST28",
-      "type": "structure",
-      "sortid": 1523,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_28"
-    },
-    {
-      "name": "CGST29",
-      "type": "structure",
-      "sortid": 1524,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_29"
-    },
-    {
-      "name": "CGST30",
-      "type": "structure",
-      "sortid": 1525,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_30"
-    },
-    {
-      "name": "CGLT21",
-      "type": "structure",
-      "sortid": 1526,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_21"
-    },
-    {
-      "name": "CGLT22",
-      "type": "structure",
-      "sortid": 1527,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_22"
-    },
-    {
-      "name": "CGLT23",
-      "type": "structure",
-      "sortid": 1528,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_23"
-    },
-    {
-      "name": "CGLT24",
-      "type": "structure",
-      "sortid": 1529,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_24"
-    },
-    {
-      "name": "CGLT25",
-      "type": "structure",
-      "sortid": 1530,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_25"
-    },
-    {
-      "name": "CGLT26",
-      "type": "structure",
-      "sortid": 1531,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_26"
-    },
-    {
-      "name": "CGLT27",
-      "type": "structure",
-      "sortid": 1532,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_27"
-    },
-    {
-      "name": "CGLT28",
-      "type": "structure",
-      "sortid": 1533,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_28"
-    },
-    {
-      "name": "CGLT29",
-      "type": "structure",
-      "sortid": 1534,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_29"
-    },
-    {
-      "name": "CGLT30",
-      "type": "structure",
-      "sortid": 1535,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cglt_30"
     },
     {
       "name": "NetherCoreFreezeWater",
@@ -17768,46 +17255,6 @@
       "path": "~/Skylands/FunnyBiomes"
     },
     {
-      "name": "SpookyWebs",
-      "type": "structure",
-      "sortid": 1723,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "spooky_webs",
-      "path": "~/Skylands/FunnyBiomes"
-    },
-    {
-      "name": "SpookyWebsAdditionalGenerationCondition",
-      "type": "procedure",
-      "sortid": 1724,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "spooky_webs_additional_generation_condition",
-      "metadata": {
-        "return_type": "LOGIC",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "XenonCrystalCluster",
       "type": "block",
       "sortid": 1723,
@@ -18136,6 +17583,266 @@
       "ids": {},
       "registry_name": "xenon_crystal_block",
       "path": "~/Crystals"
+    },
+    {
+      "name": "KryptonLampD",
+      "type": "recipe",
+      "sortid": 1757,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krypton_lamp_d",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "NeonLampD",
+      "type": "recipe",
+      "sortid": 1758,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neon_lamp_d",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 1764,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ore",
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "UraniumDust",
+      "type": "item",
+      "sortid": 1765,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_dust",
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "UraniumOreLT",
+      "type": "loottable",
+      "sortid": 1765,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ore_lt",
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "KryptonCrystalBlock",
+      "type": "block",
+      "sortid": 1749,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krypton_crystal_block",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "NeonCrystalBlock",
+      "type": "block",
+      "sortid": 1750,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neon_crystal_block",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "Asdflkja",
+      "type": "biome",
+      "sortid": 1769,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asdflkja",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "ArgonCrystalBlock",
+      "type": "block",
+      "sortid": 1748,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "argon_crystal_block",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "XenonLampD",
+      "type": "recipe",
+      "sortid": 1755,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenon_lamp_d",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "ArgonLampD",
+      "type": "recipe",
+      "sortid": 1756,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "argon_lamp_d",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "NetherCoreAirGen",
+      "type": "structure",
+      "sortid": 1768,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_core_air_gen",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "KryptonLampR",
+      "type": "recipe",
+      "sortid": 1753,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krypton_lamp_r",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "NeonLampR",
+      "type": "recipe",
+      "sortid": 1754,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neon_lamp_r",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "CoreFungus",
+      "type": "plant",
+      "sortid": 1766,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "core_fungus",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "CoreNyliumLT",
+      "type": "loottable",
+      "sortid": 1759,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "core_nylium_lt",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "NetherCoreGroveAir",
+      "type": "block",
+      "sortid": 1760,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_core_grove_air",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "ArgonLampR",
+      "type": "recipe",
+      "sortid": 1752,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "argon_lamp_r",
+      "path": "~/Crystals"
+    },
+    {
+      "name": "NetherCoreGlade",
+      "type": "biome",
+      "sortid": 1767,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_core_glade",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "NetherCoreGroveAirPro",
+      "type": "procedure",
+      "sortid": 1761,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_core_grove_air_pro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "NetherCoreGroveAirUpdate",
+      "type": "procedure",
+      "sortid": 1761,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_core_grove_air_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "XenonLampR",
+      "type": "recipe",
+      "sortid": 1751,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenon_lamp_r",
+      "path": "~/Crystals"
     }
   ],
   "variable_elements": [],
@@ -18307,6 +18014,7 @@
       "block.blahmod.saltrock_tile": "Saltrock Tiles",
       "death.attack.q20": "%1$s aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       "block.blahmod.charred_scoria_slab": "Charred Scoria Slab",
+      "block.blahmod.nether_core_grove_air": "Nether Core Grove Air",
       "block.blahmod.dark_matter_door": "Dark Matter Door",
       "block.blahmod.iron_side_slab": "Iron Side Slab",
       "item.blahmod.xenon_crystal": "Xenon Crystal Shard",

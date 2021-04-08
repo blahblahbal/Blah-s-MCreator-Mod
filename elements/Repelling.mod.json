@@ -1,12 +1,12 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "enchantment",
   "definition": {
     "name": "Repelling",
     "type": "ARMOR_CHEST",
     "rarity": "UNCOMMON",
     "minLevel": 1,
-    "maxLevel": 3,
+    "maxLevel": 2,
     "damageModifier": 0,
     "compatibleEnchantments": [],
     "compatibleItems": [],

@@ -53,6 +53,11 @@ public class GlowShroomCaveUpdateProcedure extends BlahmodModElements.ModElement
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
+		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.WATER.getDefaultState().getBlock())) {
+			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), MineralWaterBlock.block.getDefaultState(), 3);
+			world.getPendingBlockTicks().scheduleTick(new BlockPos((int) x, (int) y, (int) z),
+					world.getBlockState(new BlockPos((int) x, (int) y, (int) z)).getBlock(), (int) 20);
+		}
 		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.CAVE_AIR.getDefaultState().getBlock())) {
 			if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.STONE.getDefaultState().getBlock())) {
 				if ((Math.random() < 0.95)) {
@@ -66,11 +71,6 @@ public class GlowShroomCaveUpdateProcedure extends BlahmodModElements.ModElement
 						world.setBlockState(new BlockPos((int) x, (int) y, (int) z), ShroomTallGrassBlock.block.getDefaultState(), 3);
 					}
 				}
-			}
-			if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.WATER.getDefaultState().getBlock())) {
-				world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), MineralWaterBlock.block.getDefaultState(), 3);
-				world.getPendingBlockTicks().scheduleTick(new BlockPos((int) x, (int) (y - 1), (int) z),
-						world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)).getBlock(), (int) 20);
 			}
 			if (((world.getBlockState(new BlockPos((int) x, (int) (y - 2), (int) z))).getMaterial() == net.minecraft.block.material.Material.ROCK)) {
 				if ((!(((world.getBlockState(new BlockPos((int) x, (int) (y - 2), (int) z)))).getBlock() instanceof IWaterLoggable))) {
@@ -127,6 +127,8 @@ public class GlowShroomCaveUpdateProcedure extends BlahmodModElements.ModElement
 														|| ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1))))
 																.getBlock() == Blocks.CAVE_AIR.getDefaultState().getBlock()))))))) {
 					world.setBlockState(new BlockPos((int) x, (int) y, (int) z), MineralWaterBlock.block.getDefaultState(), 3);
+					world.getPendingBlockTicks().scheduleTick(new BlockPos((int) x, (int) (y - 1), (int) z),
+							world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)).getBlock(), (int) 20);
 				}
 			}
 		}

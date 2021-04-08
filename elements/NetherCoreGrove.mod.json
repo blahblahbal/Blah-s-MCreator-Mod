@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "biome",
   "definition": {
     "name": "Nether Core Grove",
@@ -34,22 +34,22 @@
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "PORTAL"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 0.2,
     "biomeCategory": "NONE",
     "parent": {
       "value": "No parent"
     },
     "rainingPossibility": 0.0,
-    "temperature": 0.1,
+    "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
-    "biomeType": "ICY",
+    "biomeType": "WARM",
     "spawnBiome": false,
-    "biomeWeight": 6,
+    "biomeWeight": 14,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
@@ -89,7 +89,7 @@
     "spawnShipwreck": false,
     "oceanRuinType": "NONE",
     "defaultFeatures": [
-      "FrozenTopLayer"
+      "Ores"
     ],
     "spawnEntries": [
       {

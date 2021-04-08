@@ -2,15 +2,15 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "xenon_crystal_block_top",
+    "texture": "xenon_crystal_block",
     "textureTop": "xenon_crystal_block_top",
     "textureLeft": "xenon_crystal_block_side",
     "textureFront": "xenon_crystal_block_side",
     "textureRight": "xenon_crystal_block_side",
     "textureBack": "xenon_crystal_block_side",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 5,
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -34,19 +34,19 @@
     ],
     "name": "Xenon Crystal Block",
     "specialInfo": [],
-    "hardness": 0.9,
-    "resistance": 0.0,
+    "hardness": 1.2,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahBlocks"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": true,
+    "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
@@ -76,7 +76,7 @@
     },
     "luminance": 4,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

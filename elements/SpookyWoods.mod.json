@@ -2,7 +2,7 @@
   "_fv": 17,
   "_type": "biome",
   "definition": {
-    "name": "Weeping Woods",
+    "name": "Spooky Woods",
     "groundBlock": {
       "value": "Blocks.GRASS"
     },
@@ -14,7 +14,7 @@
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -14007252,
+      "value": -13352651,
       "falpha": 0.0
     },
     "foliageColor": {
@@ -80,10 +80,10 @@
       "value": "Blocks.LEAVES#1"
     },
     "treeVines": {
-      "value": "Blocks.VINE"
+      "value": "Blocks.WEB"
     },
     "treeFruits": {
-      "value": ""
+      "value": "Blocks.WEB"
     },
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -107,6 +107,52 @@
       "TaigaLargeFerns",
       "TaigaRocks"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityWitherSkeleton"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySpider"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityEvokerFangs"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeleton"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 6,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityStray"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 2,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

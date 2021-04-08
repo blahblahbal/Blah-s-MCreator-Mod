@@ -24,6 +24,6 @@ public class StrengthSwordEntityHitProcedure extends BlahmodModElements.ModEleme
 		}
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		if (sourceentity instanceof LivingEntity)
-			((LivingEntity) sourceentity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 120, (int) 2));
+			((LivingEntity) sourceentity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 120, (int) 1));
 	}
 }

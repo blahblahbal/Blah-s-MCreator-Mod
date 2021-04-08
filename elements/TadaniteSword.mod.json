@@ -1,11 +1,11 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "tadanitesword",
     "customModelName": "Normal",
-    "name": "ï¿½aTadanite Sword",
+    "name": "§aTadanite Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

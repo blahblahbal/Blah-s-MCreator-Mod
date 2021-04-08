@@ -66,8 +66,8 @@ public class PlayerPistonProcedureProcedure extends BlahmodModElements.ModElemen
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) (x), (int) (y - 1), (int) z)) : 0) > 0)
-				&& ((world.getBlockState(new BlockPos((int) (x), (int) (y - 1), (int) z))).getBlock() == PlayerPistonBlock.block.getDefaultState()
+		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) (x - 1), (int) (y - 1), (int) z - 1)) : 0) > 0)
+				&& ((world.getBlockState(new BlockPos((int) (x - 0), (int) (y - 1), (int) z - 1))).getBlock() == PlayerPistonBlock.block.getDefaultState()
 						.getBlock()))) {
 			if (((new Object() {
 				public Direction getDirection(BlockPos pos) {
@@ -83,15 +83,15 @@ public class PlayerPistonProcedureProcedure extends BlahmodModElements.ModElemen
 						return Direction.NORTH;
 					}
 				}
-			}.getDirection(new BlockPos((int) (x), (int) (y - 1), (int) z))) == Direction.UP))
+			}.getDirection(new BlockPos((int) (x - 0), (int) (y - 1), (int) z - 1))) == Direction.UP))
 			{
 				Vector3d v3 = entity.getMotion();
-				entity.setMotion(v3.x, (double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x, (int)y - 1, (int)z)) / 7, v3.z);
+				entity.setMotion(v3.x, (double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x - 0, (int)y - 1, (int)z - 1)) / 7, v3.z);
 			}
 		}
 
-		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) (x), (int) (y + 2), (int) z)) : 0) > 0)
-				&& ((world.getBlockState(new BlockPos((int) (x), (int) (y + 2), (int) z))).getBlock() == PlayerPistonBlock.block.getDefaultState()
+		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) (x - 0), (int) (y + 2), (int) z - 1)) : 0) > 0)
+				&& ((world.getBlockState(new BlockPos((int) (x - 0), (int) (y + 2), (int) z - 1))).getBlock() == PlayerPistonBlock.block.getDefaultState()
 						.getBlock()))) {
 			if (((new Object() {
 				public Direction getDirection(BlockPos pos) {
@@ -107,16 +107,16 @@ public class PlayerPistonProcedureProcedure extends BlahmodModElements.ModElemen
 						return Direction.NORTH;
 					}
 				}
-			}.getDirection(new BlockPos((int) (x), (int) (y + 2), (int) z))) == Direction.DOWN))
+			}.getDirection(new BlockPos((int) (x - 0), (int) (y + 2), (int) z - 1))) == Direction.DOWN))
 			{
 				Vector3d v3 = entity.getMotion();
-				entity.setMotion(v3.x, -(double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x, (int)y + 2, (int)z)) / 7, v3.z);
+				entity.setMotion(v3.x, -(double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x - 0, (int)y + 2, (int)z - 1)) / 7, v3.z);
 			}
 		}
 
 		
-		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) x, (int) y, (int) z)) : 0) > 0)
-				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z - 1))).getBlock() == PlayerPistonBlock.block.getDefaultState()
+		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) x + 1, (int) y, (int) z - 1)) : 0) > 0)
+				&& ((world.getBlockState(new BlockPos((int) x + 1, (int) y, (int) z - 1))).getBlock() == PlayerPistonBlock.block.getDefaultState()
 						.getBlock()))) {
 			if (((new Object() {
 				public Direction getDirection(BlockPos pos) {
@@ -132,14 +132,14 @@ public class PlayerPistonProcedureProcedure extends BlahmodModElements.ModElemen
 						return Direction.NORTH;
 					}
 				}
-			}.getDirection(new BlockPos((int) x, (int) y, (int) z - 1))) == Direction.WEST))
+			}.getDirection(new BlockPos((int) x + 1, (int) y, (int) z - 1))) == Direction.WEST))
 			{
 				Vector3d v3 = entity.getMotion();
-				entity.setMotion(-(double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x, (int)y, (int)z)) / 7, v3.y, v3.z);
+				entity.setMotion(-(double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x + 1, (int)y, (int)z - 1)) / 7, v3.y, v3.z);
 			}
 		}
-		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) (x - 2), (int) y, (int) z)) : 0) > 0)
-				&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z - 2))).getBlock() == PlayerPistonBlock.block.getDefaultState()
+		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) (x - 1), (int) y, (int) z - 1)) : 0) > 0)
+				&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z - 1))).getBlock() == PlayerPistonBlock.block.getDefaultState()
 						.getBlock()))) {
 			if (((new Object() {
 				public Direction getDirection(BlockPos pos) {
@@ -155,14 +155,14 @@ public class PlayerPistonProcedureProcedure extends BlahmodModElements.ModElemen
 						return Direction.NORTH;
 					}
 				}
-			}.getDirection(new BlockPos((int) (x - 1), (int) y, (int) z - 2))) == Direction.EAST))
+			}.getDirection(new BlockPos((int) (x - 1), (int) y, (int) z - 1))) == Direction.EAST))
 			{
 				Vector3d v3 = entity.getMotion();
-				entity.setMotion((double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x - 1, (int)y, (int)z - 2)) / 7, v3.y, v3.z);
+				entity.setMotion((double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x - 1, (int)y, (int)z - 1)) / 7, v3.y, v3.z);
 			}
 		}
-		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) (x - 1), (int) y, (int) (z - 1))) : 0) > 0)
-				&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) (z)))).getBlock() == PlayerPistonBlock.block.getDefaultState()
+		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) (x - 0), (int) y, (int) (z - 2))) : 0) > 0)
+				&& ((world.getBlockState(new BlockPos((int) (x - 0), (int) y, (int) (z - 2)))).getBlock() == PlayerPistonBlock.block.getDefaultState()
 						.getBlock()))) {
 			if (((new Object() {
 				public Direction getDirection(BlockPos pos) {
@@ -178,14 +178,14 @@ public class PlayerPistonProcedureProcedure extends BlahmodModElements.ModElemen
 						return Direction.NORTH;
 					}
 				}
-			}.getDirection(new BlockPos((int) (x - 1), (int) y, (int) (z)))) == Direction.SOUTH))
+			}.getDirection(new BlockPos((int) (x - 0), (int) y, (int) (z - 2)))) == Direction.SOUTH))
 			{
 				Vector3d v3 = entity.getMotion();
-				entity.setMotion(v3.x, v3.y, (double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x - 1, (int)y, (int)z - 1)) / 7);
+				entity.setMotion(v3.x, v3.y, (double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x - 0, (int)y, (int)z - 2)) / 7);
 			}
 		}
-		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) (x - 1), (int) y, (int) (z + 1))) : 0) > 0)
-				&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) (z + 1)))).getBlock() == PlayerPistonBlock.block.getDefaultState()
+		if (((((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) (x - 0), (int) y, (int) (z + 0))) : 0) > 0)
+				&& ((world.getBlockState(new BlockPos((int) (x - 0), (int) y, (int) (z + 0)))).getBlock() == PlayerPistonBlock.block.getDefaultState()
 						.getBlock()))) {
 			if (((new Object() {
 				public Direction getDirection(BlockPos pos) {
@@ -201,10 +201,10 @@ public class PlayerPistonProcedureProcedure extends BlahmodModElements.ModElemen
 						return Direction.NORTH;
 					}
 				}
-			}.getDirection(new BlockPos((int) (x - 1), (int) y, (int) (z + 1)))) == Direction.NORTH))
+			}.getDirection(new BlockPos((int) (x - 0), (int) y, (int) (z + 0)))) == Direction.NORTH))
 			{
 				Vector3d v3 = entity.getMotion();
-				entity.setMotion(v3.x, v3.y, -(double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x - 1, (int)y, (int)z + 1)) / 7);
+				entity.setMotion(v3.x, v3.y, -(double)((World)world).getRedstonePowerFromNeighbors(new BlockPos((int)x - 0, (int)y, (int)z + 0)) / 7);
 			}
 		}
 	}
