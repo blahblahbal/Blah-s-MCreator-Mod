@@ -17615,26 +17615,6 @@
       "path": "~/Nether Stuff"
     },
     {
-      "name": "UraniumDust",
-      "type": "item",
-      "sortid": 1765,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "uranium_dust",
-      "path": "~/Nether Stuff"
-    },
-    {
-      "name": "UraniumOreLT",
-      "type": "loottable",
-      "sortid": 1765,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "uranium_ore_lt",
-      "path": "~/Nether Stuff"
-    },
-    {
       "name": "KryptonCrystalBlock",
       "type": "block",
       "sortid": 1749,
@@ -17843,6 +17823,100 @@
       "ids": {},
       "registry_name": "xenon_lamp_r",
       "path": "~/Crystals"
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 1770,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ingot",
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "UraniumIngotRec",
+      "type": "recipe",
+      "sortid": 1771,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ingot_rec",
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "UraniumIngotRec2",
+      "type": "recipe",
+      "sortid": 1772,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ingot_rec_2",
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "UraniumGenCondition",
+      "type": "procedure",
+      "sortid": 1773,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_gen_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "Stripper",
+      "type": "procedure",
+      "sortid": 1774,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripper",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -17919,11 +17993,11 @@
       "block.blahmod.ruby_ore": "Ruby Ore",
       "death.attack.q17": "%1$s tried to fight the Ender Dragon too early",
       "death.attack.q10": "%1$s noclipped into the void",
-      "death.attack.q11": "%1$s tried to catalyze themselves",
       "block.blahmod.emerald_slab": "Emerald Slab",
+      "death.attack.q11": "%1$s tried to catalyze themselves",
       "death.attack.q12": "%1$s\u0027s haed caught on fire",
-      "death.attack.q13": "%1$s did not need to /q",
       "block.blahmod.petrified_planks_wall": "Petrified Planks Wall",
+      "death.attack.q13": "%1$s did not need to /q",
       "block.blahmod.warped_side_slab": "Warped Side Slab",
       "item.blahmod.obsidian_construct": "Obsidian Construct",
       "death.attack.q40.player": "ï¿½e%1$s left the game",
@@ -17946,6 +18020,7 @@
       "block.blahmod.corelight": "Corelight",
       "block.blahmod.tropics_sapling": "Tropics Sapling",
       "item.blahmod.sapphire_armor_leggings": "Sapphire Leggings",
+      "block.blahmod.krypton_crystal_block": "Krypton Crystal Block",
       "block.blahmod.lightly_charred_scoria_slab": "Lightly Charred Scoria Slab",
       "block.blahmod.ice_cream_block": "Block of Ice Cream",
       "block.blahmod.cedar_slab": "Cedar Slab",
@@ -18037,6 +18112,7 @@
       "block.blahmod.polished_lightly_charred_scoria_stairs": "Polished Lightly Charred Scoria Stairs",
       "block.blahmod.coconut": "Coconut",
       "item.blahmod.stone_scythe": "Stone Scythe",
+      "biome.blahmod.asdflkja": "Asdflkja",
       "item.blahmod.emerald_staff": "Emerald Staff",
       "block.blahmod.mossy_end_stone_bricks": "Mossy End Stone Bricks",
       "biome.blahmod.nether_core_grove": "Nether Core Grove",
@@ -18059,8 +18135,10 @@
       "death.attack.q38.player": "%1$s was carried away by birds",
       "item.blahmod.molten_ice_bucket": "MoltenIce Bucket",
       "item.blahmod.netherite_scythe": "Netherite Scythe",
+      "block.blahmod.core_fungus": "Core Fungus",
       "item.blahmod.sapphire_sword": "Sapphire Sword",
       "block.blahmod.topaz_ore_gem_biome": "Topaz Ore",
+      "block.blahmod.uranium_ore": "Uranium Ore",
       "block.blahmod.smooth_black_sandstone": "Cut Black Sandstone",
       "item.blahmod.frozen_rod": "Frozen Rod",
       "item.minecraft.lingering_potion.effect.warmth": "Lingering Ice Resistance",
@@ -18084,6 +18162,7 @@
       "block.blahmod.igneous_rock_tile": "Igneous Rock Tiles",
       "item.blahmod.tadanite_hoe": "ï¿½aTadanite Hoe",
       "fluid.mineral_water": "MineralWater",
+      "item.blahmod.uranium_ingot": "Uranium Ingot",
       "item.blahmod.lumite_armor_helmet": "§6Lumite Helmet",
       "block.blahmod.dark_matter_jelly_ore": "Dark Matter Jelly Ore",
       "block.blahmod.lumite_door": "Lumite Door",
@@ -18186,6 +18265,7 @@
       "block.blahmod.borderless_glass_pane": "Borderless Glass Pane",
       "item.blahmod.lumite_armor_chestplate": "§6Lumite Chestplate",
       "block.blahmod.tropics_trapdoor": "Tropics Trapdoor",
+      "biome.blahmod.nether_core_glade": "Nether Core Glade",
       "block.blahmod.cedar_trapdoor": "Cedar Trapdoor",
       "item.blahmod.tadanite_diamond": "§aTadanite Diamond",
       "entity.blahmod.ice_cube": "Ice Cube",
@@ -18257,6 +18337,7 @@
       "item.blahmod.tadanite_armor_leggings": "§aTadanite Leggings",
       "block.blahmod.dark_matter_secret_door": "Dark Matter Secret Door",
       "item.blahmod.diamond_blast": "Diamond Blast",
+      "block.blahmod.neon_crystal_block": "Neon Crystal Block",
       "item.blahmod.obsidian_scythe": "Obsidian Scythe",
       "block.blahmod.lightly_charred_scoria_wall": "Lightly Charred Scoria Wall",
       "block.blahmod.player_piston": "Player Piston",
@@ -18464,6 +18545,7 @@
       "block.blahmod.webstone": "Webstone",
       "item.blahmod.lumite_armor_leggings": "§6Lumite Leggings",
       "item.minecraft.tipped_arrow.effect.warmth": "Arrow of Ice Resistance",
+      "block.blahmod.argon_crystal_block": "Argon Crystal Block",
       "block.blahmod.frost_wood_log": "Frost Log",
       "block.blahmod.obsidian_slab": "Obsidian Slab",
       "block.blahmod.polished_charred_scoria_wall": "Polished Charred Scoria Wall",

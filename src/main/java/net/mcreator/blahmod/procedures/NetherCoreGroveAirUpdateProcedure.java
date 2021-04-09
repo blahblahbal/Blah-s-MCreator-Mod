@@ -1,11 +1,28 @@
 package net.mcreator.blahmod.procedures;
 
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.gen.feature.template.Template;
+import net.minecraft.world.gen.feature.template.PlacementSettings;
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Rotation;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.Mirror;
+import net.minecraft.block.Blocks;
+
+import net.mcreator.blahmod.block.MoltenIceBlock;
+import net.mcreator.blahmod.block.CoreNyliumBlock;
+import net.mcreator.blahmod.block.CoreFungusBlock;
+import net.mcreator.blahmod.BlahmodModElements;
+import net.mcreator.blahmod.BlahmodMod;
+
+import java.util.Map;
+
 @BlahmodModElements.ModElement.Tag
 public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModElement {
-
 	public NetherCoreGroveAirUpdateProcedure(BlahmodModElements instance) {
 		super(instance, 1761);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -29,12 +46,10 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 				BlahmodMod.LOGGER.warn("Failed to load dependency world for procedure NetherCoreGroveAirUpdate!");
 			return;
 		}
-
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		boolean found = false;
 		double sx = 0;
 		double sy = 0;
@@ -47,7 +62,6 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 				if (world instanceof ServerWorld) {
 					Template template = ((ServerWorld) world).getStructureTemplateManager()
 							.getTemplateDefaulted(new ResourceLocation("blahmod", "core_roots"));
-
 					if (template != null) {
 						template.func_237144_a_((ServerWorld) world, new BlockPos((int) x, (int) y, (int) z),
 								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false),
@@ -93,7 +107,6 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 							if (world instanceof ServerWorld) {
 								Template template = ((ServerWorld) world).getStructureTemplateManager()
 										.getTemplateDefaulted(new ResourceLocation("blahmod", "small_core_tree"));
-
 								if (template != null) {
 									template.func_237144_a_(
 											(ServerWorld) world, new BlockPos((int) (x - 3), (int) y, (int) (z - 3)), new PlacementSettings()
@@ -105,7 +118,6 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 							if (world instanceof ServerWorld) {
 								Template template = ((ServerWorld) world).getStructureTemplateManager()
 										.getTemplateDefaulted(new ResourceLocation("blahmod", "small_core_tree"));
-
 								if (template != null) {
 									template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 3), (int) y, (int) (z - 3)),
 											new PlacementSettings().setRotation(Rotation.CLOCKWISE_90).setMirror(Mirror.NONE).setChunk(null)
@@ -117,7 +129,6 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 							if (world instanceof ServerWorld) {
 								Template template = ((ServerWorld) world).getStructureTemplateManager()
 										.getTemplateDefaulted(new ResourceLocation("blahmod", "small_core_tree"));
-
 								if (template != null) {
 									template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 3), (int) y, (int) (z - 3)),
 											new PlacementSettings().setRotation(Rotation.CLOCKWISE_180).setMirror(Mirror.NONE).setChunk(null)
@@ -129,7 +140,6 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 							if (world instanceof ServerWorld) {
 								Template template = ((ServerWorld) world).getStructureTemplateManager()
 										.getTemplateDefaulted(new ResourceLocation("blahmod", "small_core_tree"));
-
 								if (template != null) {
 									template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 3), (int) y, (int) (z - 3)),
 											new PlacementSettings().setRotation(Rotation.COUNTERCLOCKWISE_90).setMirror(Mirror.NONE).setChunk(null)
@@ -156,7 +166,6 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 							if (world instanceof ServerWorld) {
 								Template template = ((ServerWorld) world).getStructureTemplateManager()
 										.getTemplateDefaulted(new ResourceLocation("blahmod", "core_tree"));
-
 								if (template != null) {
 									template.func_237144_a_(
 											(ServerWorld) world, new BlockPos((int) (x - 3), (int) y, (int) (z - 3)), new PlacementSettings()
@@ -168,7 +177,6 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 							if (world instanceof ServerWorld) {
 								Template template = ((ServerWorld) world).getStructureTemplateManager()
 										.getTemplateDefaulted(new ResourceLocation("blahmod", "core_tree"));
-
 								if (template != null) {
 									template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 3), (int) y, (int) (z - 3)),
 											new PlacementSettings().setRotation(Rotation.CLOCKWISE_90).setMirror(Mirror.NONE).setChunk(null)
@@ -180,7 +188,6 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 							if (world instanceof ServerWorld) {
 								Template template = ((ServerWorld) world).getStructureTemplateManager()
 										.getTemplateDefaulted(new ResourceLocation("blahmod", "core_tree"));
-
 								if (template != null) {
 									template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 3), (int) y, (int) (z - 3)),
 											new PlacementSettings().setRotation(Rotation.CLOCKWISE_180).setMirror(Mirror.NONE).setChunk(null)
@@ -192,7 +199,6 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 							if (world instanceof ServerWorld) {
 								Template template = ((ServerWorld) world).getStructureTemplateManager()
 										.getTemplateDefaulted(new ResourceLocation("blahmod", "core_tree"));
-
 								if (template != null) {
 									template.func_237144_a_((ServerWorld) world, new BlockPos((int) (x - 3), (int) y, (int) (z - 3)),
 											new PlacementSettings().setRotation(Rotation.COUNTERCLOCKWISE_90).setMirror(Mirror.NONE).setChunk(null)
@@ -205,7 +211,5 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 				}
 			}
 		}
-
 	}
-
 }

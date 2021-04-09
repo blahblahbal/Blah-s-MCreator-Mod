@@ -4,13 +4,13 @@
   "definition": {
     "texture": "uranium_ore_top",
     "textureTop": "uranium_ore_top",
-    "textureLeft": "uranium_ore_side",
-    "textureFront": "uranium_ore_side",
-    "textureRight": "uranium_ore_side",
-    "textureBack": "uranium_ore_side",
+    "textureLeft": "uranium_ore",
+    "textureFront": "uranium_ore",
+    "textureRight": "uranium_ore",
+    "textureBack": "uranium_ore",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 5,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -34,7 +34,7 @@
     ],
     "name": "Uranium Ore",
     "specialInfo": [],
-    "hardness": 1.5,
+    "hardness": 3.0,
     "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -46,7 +46,7 @@
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": true,
+    "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
@@ -107,15 +107,19 @@
     "spawnWorldTypes": [
       "Nether"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "basalt_deltas"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.BASALT"
       }
     ],
-    "frequencyPerChunks": 3,
+    "frequencyPerChunks": 30,
     "frequencyOnChunk": 5,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 90
+    "maxGenerateHeight": 256
   }
 }

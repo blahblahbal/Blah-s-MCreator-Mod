@@ -3,10 +3,10 @@
   "textures": {
     "down": "blahmod:blocks/uranium_ore_top",
     "up": "blahmod:blocks/uranium_ore_top",
-    "north": "blahmod:blocks/uranium_ore_side",
-    "east": "blahmod:blocks/uranium_ore_side",
-    "south": "blahmod:blocks/uranium_ore_side",
-    "west": "blahmod:blocks/uranium_ore_side",
+    "north": "blahmod:blocks/uranium_ore",
+    "east": "blahmod:blocks/uranium_ore",
+    "south": "blahmod:blocks/uranium_ore",
+    "west": "blahmod:blocks/uranium_ore",
     "particle": "blahmod:blocks/uranium_ore_top"
   }
 }
