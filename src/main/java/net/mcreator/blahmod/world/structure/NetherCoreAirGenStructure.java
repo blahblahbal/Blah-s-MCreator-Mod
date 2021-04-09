@@ -28,9 +28,10 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Mirror;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.blahmod.block.CoreNyliumBlock;
+import net.mcreator.blahmod.block.NetherfrostBlock;
 import net.mcreator.blahmod.BlahmodModElements;
 
 import java.util.Random;
@@ -58,7 +59,7 @@ public class NetherCoreAirGenStructure extends BlahmodModElements.ModElement {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 1000000) {
+					if ((random.nextInt(1000000) + 1) <= 600000) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
@@ -67,7 +68,9 @@ public class NetherCoreAirGenStructure extends BlahmodModElements.ModElement {
 							j = Math.abs(random.nextInt(Math.max(1, j)) - 24);
 							BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
 							boolean blockCriteria = false;
-							if (blockAt.getBlock() == CoreNyliumBlock.block.getDefaultState().getBlock())
+							if (blockAt.getBlock() == NetherfrostBlock.block.getDefaultState().getBlock())
+								blockCriteria = true;
+							if (blockAt.getBlock() == Blocks.AIR.getDefaultState().getBlock())
 								blockCriteria = true;
 							if (!blockCriteria)
 								continue;
@@ -98,6 +101,11 @@ public class NetherCoreAirGenStructure extends BlahmodModElements.ModElement {
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("blahmod:nether_core_grove").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_STRUCTURES).add(() -> configuredFeature);
 	}
 }

@@ -48,7 +48,7 @@ public class NetherCoreGroveAirBlock extends BlahmodModElements.ModElement {
 	@ObjectHolder("blahmod:nether_core_grove_air")
 	public static final Block block = null;
 	public NetherCoreGroveAirBlock(BlahmodModElements instance) {
-		super(instance, 1760);
+		super(instance, 1769);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -60,7 +60,7 @@ public class NetherCoreGroveAirBlock extends BlahmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.AIR).sound(SoundType.GROUND).hardnessAndResistance(-1, 3600000).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.GLASS).sound(SoundType.GROUND).hardnessAndResistance(-1, 3600000).setLightLevel(s -> 0)
 					.tickRandomly());
 			setRegistryName("nether_core_grove_air");
 		}
@@ -159,8 +159,8 @@ public class NetherCoreGroveAirBlock extends BlahmodModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 1)).range(120)
-					.square().func_242731_b(10);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 1)).range(90)
+					.square().func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("nether_core_grove_air"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("blahmod:nether_core_grove_air"), configuredFeature);
 		}

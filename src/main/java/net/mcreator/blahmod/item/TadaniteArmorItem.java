@@ -86,14 +86,14 @@ public class TadaniteArmorItem extends BlahmodModElements.ModElement {
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(CreativeTabBlahItemsItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "blahmod:textures/models/armor/tadanite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "blahmod:textures/models/armor/tadanite___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("tadanite_armor_helmet"));
 		elements.items
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(CreativeTabBlahItemsItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "blahmod:textures/models/armor/tadanite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "blahmod:textures/models/armor/tadanite___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 
 					@Override
@@ -112,14 +112,14 @@ public class TadaniteArmorItem extends BlahmodModElements.ModElement {
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(CreativeTabBlahItemsItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "blahmod:textures/models/armor/tadanite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "blahmod:textures/models/armor/tadanite___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("tadanite_armor_leggings"));
 		elements.items
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(CreativeTabBlahItemsItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "blahmod:textures/models/armor/tadanite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "blahmod:textures/models/armor/tadanite___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("tadanite_armor_boots"));
 	}

@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "block",
   "definition": {
     "texture": "frostlog",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Frost Log",
+    "name": "Frost Hyphae",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 2.0,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "HYPHAE"
     },
     "luminance": 0,
     "unbreakable": false,

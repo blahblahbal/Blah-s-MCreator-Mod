@@ -18,6 +18,7 @@ import net.mcreator.blahmod.BlahmodModElements;
 import net.mcreator.blahmod.BlahmodMod;
 
 import java.util.Map;
+import java.util.HashMap;
 
 @BlahmodModElements.ModElement.Tag
 public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModElement {
@@ -58,7 +59,7 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 		double rn1 = 0;
 		double ypos = 0;
 		if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == CoreNyliumBlock.block.getDefaultState().getBlock())) {
-			if ((Math.random() < 0.02)) {
+			if ((Math.random() < 0.015)) {
 				if (world instanceof ServerWorld) {
 					Template template = ((ServerWorld) world).getStructureTemplateManager()
 							.getTemplateDefaulted(new ResourceLocation("blahmod", "core_roots"));
@@ -69,8 +70,18 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 					}
 				}
 			}
-			if ((Math.random() < 0.005)) {
+			if ((Math.random() < 0.002)) {
 				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), CoreFungusBlock.block.getDefaultState(), 3);
+			}
+			if ((Math.random() < 0.00075)) {
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("world", world);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					CoreVineGroundVineThingProcedure.executeProcedure($_dependencies);
+				}
 			}
 			sx = (double) (-4);
 			found = (boolean) (false);
@@ -89,8 +100,8 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 				}
 				sx = (double) ((sx) + 1);
 			}
-			if ((Math.random() < 0.001)) {
-				if (((aircount) > 200)) {
+			if ((Math.random() < 0.00075)) {
+				if (((aircount) > 100)) {
 					rn1 = (double) Math.random();
 					ypos = (double) (y - 1);
 					while (((world.getBlockState(new BlockPos((int) x, (int) (ypos), (int) z))).getBlock() == Blocks.AIR.getDefaultState()
@@ -149,7 +160,7 @@ public class NetherCoreGroveAirUpdateProcedure extends BlahmodModElements.ModEle
 							}
 						}
 					}
-				} else if (((aircount) > 300)) {
+				} else if (((aircount) > 200)) {
 					rn1 = (double) Math.random();
 					ypos = (double) (y - 1);
 					while (((world.getBlockState(new BlockPos((int) x, (int) (ypos), (int) z))).getBlock() == Blocks.AIR.getDefaultState()

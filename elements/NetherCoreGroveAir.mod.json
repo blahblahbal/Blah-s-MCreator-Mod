@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "AIR"
+      "value": "GLASS"
     },
     "tickRate": 10,
     "tickRandomly": true,
@@ -123,9 +123,9 @@
         "value": "CUSTOM:Netherfrost"
       }
     ],
-    "frequencyPerChunks": 10,
+    "frequencyPerChunks": 1,
     "frequencyOnChunk": 1,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 120
+    "maxGenerateHeight": 90
   }
 }

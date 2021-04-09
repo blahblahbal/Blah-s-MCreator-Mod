@@ -14769,24 +14769,6 @@
       "path": "~/Nether Core"
     },
     {
-      "name": "CoreGroveLargeTree",
-      "type": "structure",
-      "sortid": 1459,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "core_grove_large_tree"
-    },
-    {
-      "name": "CoreGroveSmallTree",
-      "type": "structure",
-      "sortid": 1460,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "core_grove_small_tree"
-    },
-    {
       "name": "SmallIceSpike",
       "type": "structure",
       "sortid": 1461,
@@ -14922,15 +14904,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "small_ice_spike_2"
-    },
-    {
-      "name": "CGST8",
-      "type": "structure",
-      "sortid": 1491,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cgst_8"
     },
     {
       "name": "LIS2",
@@ -17705,16 +17678,6 @@
       "path": "~/Nether Core"
     },
     {
-      "name": "NetherCoreGroveAir",
-      "type": "block",
-      "sortid": 1760,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nether_core_grove_air",
-      "path": "~/Nether Core"
-    },
-    {
       "name": "NetherCoreGroveAirUpdate",
       "type": "procedure",
       "sortid": 1761,
@@ -17815,16 +17778,6 @@
       "path": "~/Nether Core"
     },
     {
-      "name": "NetherCoreGlade",
-      "type": "biome",
-      "sortid": 1767,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nether_core_glade",
-      "path": "~/Nether Core"
-    },
-    {
       "name": "NetherCoreAirGen",
       "type": "structure",
       "sortid": 1768,
@@ -17835,13 +17788,43 @@
       "path": "~/Nether Core"
     },
     {
-      "name": "Asdflkja",
-      "type": "biome",
+      "name": "NetherCoreGroveAir",
+      "type": "block",
       "sortid": 1769,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "asdflkja",
+      "registry_name": "nether_core_grove_air",
+      "path": "~/Nether Core"
+    },
+    {
+      "name": "CoreVineGroundVineThing",
+      "type": "procedure",
+      "sortid": 1771,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "core_vine_ground_vine_thing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
       "path": "~/Nether Core"
     }
   ],
@@ -17862,17 +17845,17 @@
       "block.blahmod.frost_wood_slab": "Frost Wood Slab",
       "block.blahmod.polished_igneous_rock": "Polished Igneous Rock",
       "block.blahmod.lapis_side_slab": "Lapis Lazuli Side Slab",
-      "block.blahmod.obsidian_brick_side_slab": "Obsidian Brick Side Slab",
       "block.blahmod.sapphire_ore": "Cloud Sapphire Ore",
+      "block.blahmod.obsidian_brick_side_slab": "Obsidian Brick Side Slab",
       "block.blahmod.amethyst_ore_gem_biome": "Amethyst Ore",
       "block.blahmod.citrine_leaves": "Citrine Leaves",
       "death.attack.q37.player": "%1$s was taken away to the funny farm",
       "item.blahmod.tadanite_axe": "§aTadanite Axe",
-      "block.blahmod.whitewood_secret_door": "Whitewood Secret Door",
       "item.blahmod.topaz_staff": "Topaz Staff",
-      "block.blahmod.chiseled_bone_sandstone": "Chiseled Bonesandstone",
-      "death.attack.freezing.player": "%1$s froze to death whilst fighting %2$s",
+      "block.blahmod.whitewood_secret_door": "Whitewood Secret Door",
       "advancements.nether_core_achievement.title": "Chilly.",
+      "death.attack.freezing.player": "%1$s froze to death whilst fighting %2$s",
+      "block.blahmod.chiseled_bone_sandstone": "Chiseled Bonesandstone",
       "block.blahmod.quartz_side_slab": "Quartz Side Slab",
       "block.blahmod.lightly_charred_scoria_stairs": "Lightly Charred Scoria Stairs",
       "block.blahmod.lumite_ore": "Lumite Ore",
@@ -17889,14 +17872,14 @@
       "block.blahmod.cactus_side_slab": "Cactus Side Slab",
       "block.blahmod.stripped_cedar_log": "Stripped Cedar Log",
       "block.blahmod.crystal_cave_air": "Crystal Cave Air",
-      "block.blahmod.chiseled_frost_sandstone": "Chiseled Frost Sandstone",
       "block.blahmod.smooth_netherrack_slab": "Smooth Netherrack Slab",
+      "block.blahmod.chiseled_frost_sandstone": "Chiseled Frost Sandstone",
       "block.blahmod.amethyst_leaves": "Amethyst Leaves",
       "block.blahmod.stripped_cedar_wood": "Stripped Cedar Wood",
       "item.blahmod.citrine_staff": "Citrine Staff",
       "block.blahmod.ruby_leaves": "Ruby Leaves",
-      "block.blahmod.cedar_sapling": "Cedar Sapling",
       "block.blahmod.polished_charred_scoria_stairs": "Polished Charred Scoria Stairs",
+      "block.blahmod.cedar_sapling": "Cedar Sapling",
       "item.blahmod.topaz_blast": "Topaz Blast",
       "death.attack.q22.player": "%1$s fell from a low place",
       "block.blahmod.obsidian_side_slab": "Obsidian Side Slab",
@@ -18038,7 +18021,6 @@
       "block.blahmod.polished_lightly_charred_scoria_stairs": "Polished Lightly Charred Scoria Stairs",
       "block.blahmod.coconut": "Coconut",
       "item.blahmod.stone_scythe": "Stone Scythe",
-      "biome.blahmod.asdflkja": "Asdflkja",
       "item.blahmod.emerald_staff": "Emerald Staff",
       "block.blahmod.mossy_end_stone_bricks": "Mossy End Stone Bricks",
       "biome.blahmod.nether_core_grove": "Nether Core Grove",
@@ -18138,7 +18120,7 @@
       "death.attack.q15.player": "%1$s became a zombie",
       "block.blahmod.frost_secret_door": "Frost Secret Door",
       "death.attack.q16.player": "%1$s\u0027s skeleton popped out",
-      "block.blahmod.frost_wood_wood": "Frost Log",
+      "block.blahmod.frost_wood_wood": "Frost Hyphae",
       "block.blahmod.bedrock_2": "Bedrock",
       "death.attack.q9.player": "%1$sn\u0027t",
       "block.blahmod.polished_magnetite": "Polished Magnetite",
@@ -18190,7 +18172,6 @@
       "block.blahmod.borderless_glass_pane": "Borderless Glass Pane",
       "item.blahmod.lumite_armor_chestplate": "§6Lumite Chestplate",
       "block.blahmod.tropics_trapdoor": "Tropics Trapdoor",
-      "biome.blahmod.nether_core_glade": "Nether Core Glade",
       "block.blahmod.cedar_trapdoor": "Cedar Trapdoor",
       "item.blahmod.tadanite_diamond": "§aTadanite Diamond",
       "entity.blahmod.ice_cube": "Ice Cube",
@@ -18472,7 +18453,7 @@
       "item.blahmod.lumite_armor_leggings": "§6Lumite Leggings",
       "item.minecraft.tipped_arrow.effect.warmth": "Arrow of Ice Resistance",
       "block.blahmod.argon_crystal_block": "Argon Crystal Block",
-      "block.blahmod.frost_wood_log": "Frost Log",
+      "block.blahmod.frost_wood_log": "Frost Stem",
       "block.blahmod.obsidian_slab": "Obsidian Slab",
       "block.blahmod.polished_charred_scoria_wall": "Polished Charred Scoria Wall",
       "death.attack.q6": "%1$s took a lotta damage",

@@ -44,13 +44,13 @@ public class NetherCoreGroveAirProProcedure extends BlahmodModElements.ModElemen
 		double zs = 0;
 		double ys = 0;
 		double xs = 0;
-		if ((y >= 13)) {
-			zs = (double) (-32);
-			for (int index0 = 0; index0 < (int) (64); index0++) {
-				xs = (double) (-32);
-				for (int index1 = 0; index1 < (int) (64); index1++) {
-					ys = (double) (-16);
-					for (int index2 = 0; index2 < (int) (32); index2++) {
+		if ((y >= 1)) {
+			zs = (double) (-64);
+			for (int index0 = 0; index0 < (int) (128); index0++) {
+				xs = (double) (-64);
+				for (int index1 = 0; index1 < (int) (128); index1++) {
+					ys = (double) (-32);
+					for (int index2 = 0; index2 < (int) (64); index2++) {
 						ys = (double) ((ys) + 1);
 						{
 							Map<String, Object> $_dependencies = new HashMap<>();

@@ -34,7 +34,7 @@ public class FrostWoodLogBlock extends BlahmodModElements.ModElement {
 	@ObjectHolder("blahmod:frost_wood_log")
 	public static final Block block = null;
 	public FrostWoodLogBlock(BlahmodModElements instance) {
-		super(instance, 132);
+		super(instance, 152);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class FrostWoodLogBlock extends BlahmodModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 2f).setLightLevel(s -> 0).harvestLevel(0)
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.HYPHAE).hardnessAndResistance(2f, 2f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.AXE));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
 			setRegistryName("frost_wood_log");
