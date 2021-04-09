@@ -17678,6 +17678,16 @@
       "path": "~/Nether Core"
     },
     {
+      "name": "NetherCoreGroveAir",
+      "type": "block",
+      "sortid": 1760,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_core_grove_air",
+      "path": "~/Nether Core"
+    },
+    {
       "name": "NetherCoreGroveAirUpdate",
       "type": "procedure",
       "sortid": 1761,
@@ -17748,26 +17758,6 @@
       "path": "~/Nether Stuff"
     },
     {
-      "name": "UraniumDust",
-      "type": "item",
-      "sortid": 1765,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "uranium_dust",
-      "path": "~/Nether Stuff"
-    },
-    {
-      "name": "UraniumOreLT",
-      "type": "loottable",
-      "sortid": 1765,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "uranium_ore_lt",
-      "path": "~/Nether Stuff"
-    },
-    {
       "name": "CoreFungus",
       "type": "plant",
       "sortid": 1766,
@@ -17785,16 +17775,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nether_core_air_gen",
-      "path": "~/Nether Core"
-    },
-    {
-      "name": "NetherCoreGroveAir",
-      "type": "block",
-      "sortid": 1769,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nether_core_grove_air",
       "path": "~/Nether Core"
     },
     {
@@ -17826,6 +17806,100 @@
         ]
       },
       "path": "~/Nether Core"
+    },
+    {
+      "name": "UraniumGenCondition",
+      "type": "procedure",
+      "sortid": 1773,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_gen_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "UraniumIngotRec",
+      "type": "recipe",
+      "sortid": 1771,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ingot_rec",
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 1770,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ingot",
+      "path": "~/Nether Stuff"
+    },
+    {
+      "name": "Stripper",
+      "type": "procedure",
+      "sortid": 1774,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripper",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UraniumIngotRec2",
+      "type": "recipe",
+      "sortid": 1772,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ingot_rec_2",
+      "path": "~/Nether Stuff"
     }
   ],
   "variable_elements": [],
@@ -18021,6 +18095,7 @@
       "block.blahmod.polished_lightly_charred_scoria_stairs": "Polished Lightly Charred Scoria Stairs",
       "block.blahmod.coconut": "Coconut",
       "item.blahmod.stone_scythe": "Stone Scythe",
+      "biome.blahmod.asdflkja": "Asdflkja",
       "item.blahmod.emerald_staff": "Emerald Staff",
       "block.blahmod.mossy_end_stone_bricks": "Mossy End Stone Bricks",
       "biome.blahmod.nether_core_grove": "Nether Core Grove",
@@ -18120,7 +18195,7 @@
       "death.attack.q15.player": "%1$s became a zombie",
       "block.blahmod.frost_secret_door": "Frost Secret Door",
       "death.attack.q16.player": "%1$s\u0027s skeleton popped out",
-      "block.blahmod.frost_wood_wood": "Frost Hyphae",
+      "block.blahmod.frost_wood_wood": "Frost Log",
       "block.blahmod.bedrock_2": "Bedrock",
       "death.attack.q9.player": "%1$sn\u0027t",
       "block.blahmod.polished_magnetite": "Polished Magnetite",
@@ -18172,6 +18247,7 @@
       "block.blahmod.borderless_glass_pane": "Borderless Glass Pane",
       "item.blahmod.lumite_armor_chestplate": "§6Lumite Chestplate",
       "block.blahmod.tropics_trapdoor": "Tropics Trapdoor",
+      "biome.blahmod.nether_core_glade": "Nether Core Glade",
       "block.blahmod.cedar_trapdoor": "Cedar Trapdoor",
       "item.blahmod.tadanite_diamond": "§aTadanite Diamond",
       "entity.blahmod.ice_cube": "Ice Cube",
@@ -18453,7 +18529,7 @@
       "item.blahmod.lumite_armor_leggings": "§6Lumite Leggings",
       "item.minecraft.tipped_arrow.effect.warmth": "Arrow of Ice Resistance",
       "block.blahmod.argon_crystal_block": "Argon Crystal Block",
-      "block.blahmod.frost_wood_log": "Frost Stem",
+      "block.blahmod.frost_wood_log": "Frost Log",
       "block.blahmod.obsidian_slab": "Obsidian Slab",
       "block.blahmod.polished_charred_scoria_wall": "Polished Charred Scoria Wall",
       "death.attack.q6": "%1$s took a lotta damage",

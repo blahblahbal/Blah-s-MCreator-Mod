@@ -1,0 +1,12 @@
+{
+  "group": "blahmod",
+  "type": "minecraft:smelting",
+  "experience": 4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "blahmod:uranium_ore"
+  },
+  "result": {
+    "item": "blahmod:deleted_mod_element"
+  }
+}
