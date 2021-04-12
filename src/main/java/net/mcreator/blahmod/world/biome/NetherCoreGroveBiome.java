@@ -53,7 +53,7 @@ public class NetherCoreGroveBiome extends BlahmodModElements.ModElement {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-6889240).setWaterColor(4159204).setWaterFogColor(-6889240)
 						.withSkyColor(-6889240).withFoliageColor(10387789).withGrassColor(-1)
-						.setParticle(new ParticleEffectAmbience(ParticleTypes.PORTAL, 0.002f)).build();
+						.setParticle(new ParticleEffectAmbience(ParticleTypes.PORTAL, 0.004f)).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(CoreNyliumBlock.block.getDefaultState(),
 								NetherfrostBlock.block.getDefaultState(), NetherfrostBlock.block.getDefaultState())));

@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "biome",
   "definition": {
     "name": "Dark Matter",
@@ -53,7 +53,7 @@
     "heightVariation": 0.2,
     "biomeType": "ICY",
     "spawnBiome": false,
-    "biomeWeight": 15,
+    "biomeWeight": 9,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,

@@ -1,27 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "blahmod:block/argon_crystal_cluster"
-    },
-    "facing=east": {
-      "model": "blahmod:block/argon_crystal_cluster",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "blahmod:block/argon_crystal_cluster",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "blahmod:block/argon_crystal_cluster",
-      "y": 270
-    },
-    "facing=up": {
-      "model": "blahmod:block/argon_crystal_cluster",
-      "x": 270
-    },
-    "facing=down": {
-      "model": "blahmod:block/argon_crystal_cluster",
-      "x": 90
     }
   }
 }

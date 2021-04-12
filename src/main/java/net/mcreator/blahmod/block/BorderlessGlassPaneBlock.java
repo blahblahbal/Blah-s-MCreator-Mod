@@ -48,7 +48,7 @@ public class BorderlessGlassPaneBlock extends BlahmodModElements.ModElement {
 	public static class CustomBlock extends PaneBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(0.3f, 0.3f).setLightLevel(s -> 0)
-					.harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
+					.harvestLevel(0).harvestTool(ToolType.PICKAXE).notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("borderless_glass_pane");
 		}
 

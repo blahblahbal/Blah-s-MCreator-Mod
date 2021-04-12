@@ -43,15 +43,33 @@ public class MossyStoneUpdateTickProcedure extends BlahmodModElements.ModElement
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((!((((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)))).getBlock() instanceof IWaterLoggable)
+		if ((!((((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)))).getBlock() instanceof IWaterLoggable) || (((world
+				.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getMaterial() == net.minecraft.block.material.Material.LEAVES)
 				|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)))
-						.getMaterial() == net.minecraft.block.material.Material.LEAVES)
+						.getMaterial() == net.minecraft.block.material.Material.PLANTS)
 						|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)))
-								.getMaterial() == net.minecraft.block.material.Material.PLANTS)
+								.getMaterial() == net.minecraft.block.material.Material.TALL_PLANTS)
 								|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)))
-										.getMaterial() == net.minecraft.block.material.Material.TALL_PLANTS)
-										|| ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)))
-												.getMaterial() == net.minecraft.block.material.Material.AIR))))))) {
+										.getMaterial() == net.minecraft.block.material.Material.AIR)
+										|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.TORCH
+												.getDefaultState().getBlock())
+												|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)))
+														.getBlock() == Blocks.WALL_TORCH.getDefaultState().getBlock())
+														|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)))
+																.getBlock() == Blocks.SOUL_TORCH.getDefaultState().getBlock())
+																|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)))
+																		.getBlock() == Blocks.SOUL_WALL_TORCH.getDefaultState().getBlock())
+																		|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)))
+																				.getBlock() == Blocks.REDSTONE_TORCH.getDefaultState().getBlock())
+																				|| (((world
+																						.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)))
+																								.getBlock() == Blocks.REDSTONE_WALL_TORCH
+																										.getDefaultState().getBlock())
+																						|| ((world.getBlockState(
+																								new BlockPos((int) x, (int) (y + 1), (int) z)))
+																										.getBlock() == Blocks.REDSTONE_TORCH
+																												.getDefaultState()
+																												.getBlock())))))))))))))) {
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockState _bs = Blocks.STONE.getDefaultState();

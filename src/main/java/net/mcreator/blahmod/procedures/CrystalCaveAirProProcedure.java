@@ -44,7 +44,7 @@ public class CrystalCaveAirProProcedure extends BlahmodModElements.ModElement {
 		double zs = 0;
 		double ys = 0;
 		double xs = 0;
-		if ((y >= 6)) {
+		if (((y >= 6) && (y <= 50))) {
 			zs = (double) (-32);
 			for (int index0 = 0; index0 < (int) (64); index0++) {
 				xs = (double) (-32);

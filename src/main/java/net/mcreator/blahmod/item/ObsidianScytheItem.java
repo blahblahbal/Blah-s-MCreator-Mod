@@ -45,7 +45,7 @@ public class ObsidianScytheItem extends BlahmodModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\uFFFD7Fragile"));
+				list.add(new StringTextComponent("\u00A77Fragile"));
 			}
 
 			@Override
@@ -56,6 +56,7 @@ public class ObsidianScytheItem extends BlahmodModElements.ModElement {
 				int z = pos.getZ();
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);

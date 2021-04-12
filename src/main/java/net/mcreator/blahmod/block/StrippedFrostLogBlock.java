@@ -30,7 +30,7 @@ public class StrippedFrostLogBlock extends BlahmodModElements.ModElement {
 	@ObjectHolder("blahmod:stripped_frost_log")
 	public static final Block block = null;
 	public StrippedFrostLogBlock(BlahmodModElements instance) {
-		super(instance, 432);
+		super(instance, 158);
 	}
 
 	@Override
@@ -42,7 +42,7 @@ public class StrippedFrostLogBlock extends BlahmodModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 2f).setLightLevel(s -> 0).harvestLevel(0)
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.HYPHAE).hardnessAndResistance(2f, 2f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.AXE));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
 			setRegistryName("stripped_frost_log");

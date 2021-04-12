@@ -43,8 +43,16 @@ public class SlowInMoltenIceProcedure extends BlahmodModElements.ModElement {
 		}.check(entity))))
 		{
 			if (entity instanceof LivingEntity)
+			{
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 60, (int) 4, (false), (true)));
-			if (!(entity instanceof EskimoZombieEntity.CustomEntity && entity instanceof IceCubeEntity.CustomEntity && entity instanceof GhastEntity))
+				//((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 1, (false), (true)));
+				//((LivingEntity) entity).extinguish();
+			}
+			if (entity instanceof EskimoZombieEntity.CustomEntity || entity instanceof IceCubeEntity.CustomEntity || entity instanceof GhastEntity)
+			{
+				return;
+			}
+			else
 			{
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(FreezingPotion.potion, (int) 120, (int) 2, (false), (false)));

@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.PLANKS"
+        "value": "TAG:planks"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "TAG:planks"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "TAG:planks"
       },
       {
         "value": "Items.IRON_INGOT"

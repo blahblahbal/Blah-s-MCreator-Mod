@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "block",
   "definition": {
     "texture": "zirconore",
@@ -101,6 +101,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "GemOreXP"
+    },
     "spawnWorldTypes": [
       "End"
     ],

@@ -2,8 +2,8 @@ package net.mcreator.blahmod.procedures;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.block.Blocks;
 
-import net.mcreator.blahmod.block.NetherfrostBlock;
 import net.mcreator.blahmod.BlahmodModElements;
 import net.mcreator.blahmod.BlahmodMod;
 
@@ -66,6 +66,6 @@ public class NetherCoreGroveAirProProcedure extends BlahmodModElements.ModElemen
 				zs = (double) ((zs) + 1);
 			}
 		}
-		world.setBlockState(new BlockPos((int) x, (int) y, (int) z), NetherfrostBlock.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 	}
 }

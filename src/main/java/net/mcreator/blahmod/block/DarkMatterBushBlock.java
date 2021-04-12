@@ -27,15 +27,15 @@ import net.minecraft.world.ISeedReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Direction;
-import net.minecraft.state.properties.DoubleBlockHalf;
-import net.minecraft.state.properties.BlockStateProperties;
-import net.minecraft.loot.LootContext;
 import net.minecraft.item.TallBlockItem;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
@@ -50,8 +50,6 @@ import net.mcreator.blahmod.itemgroup.CreativeTabBlahBlocksItemGroup;
 import net.mcreator.blahmod.BlahmodModElements;
 
 import java.util.Random;
-import java.util.List;
-import java.util.Collections;
 
 @BlahmodModElements.ModElement.Tag
 public class DarkMatterBushBlock extends BlahmodModElements.ModElement {
@@ -117,6 +115,12 @@ public class DarkMatterBushBlock extends BlahmodModElements.ModElement {
 		}
 
 		@Override
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			Vector3d offset = state.getOffset(world, pos);
+			return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 16, 16)).withOffset(offset.x, offset.y, offset.z);
+		}
+
+		@Override
 		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
 			return 100;
 		}
@@ -124,16 +128,6 @@ public class DarkMatterBushBlock extends BlahmodModElements.ModElement {
 		@Override
 		public int getFireSpreadSpeed(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
 			return 60;
-		}
-
-		@Override
-		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-			if (state.get(BlockStateProperties.DOUBLE_BLOCK_HALF) != DoubleBlockHalf.LOWER)
-				return Collections.emptyList();
-			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-			if (!dropsOriginal.isEmpty())
-				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
 		}
 
 		@Override

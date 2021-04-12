@@ -1,11 +1,11 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "catalyticinverter",
     "customModelName": "Normal",
-    "name": "ï¿½4Catalï¿½cytic ï¿½6Inveï¿½erter",
+    "name": "§4Catal§cytic §6Inve§erter",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlahItems"

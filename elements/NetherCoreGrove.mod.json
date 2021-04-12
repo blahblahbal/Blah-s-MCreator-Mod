@@ -38,7 +38,7 @@
     "particleToSpawn": {
       "value": "PORTAL"
     },
-    "particlesProbability": 0.2,
+    "particlesProbability": 0.4,
     "biomeCategory": "NONE",
     "parent": {
       "value": "No parent"

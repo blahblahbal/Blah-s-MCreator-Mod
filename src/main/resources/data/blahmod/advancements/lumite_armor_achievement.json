@@ -9,7 +9,7 @@
     "description": {
       "translate": "advancements.lumite_armor_achievement.descr"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

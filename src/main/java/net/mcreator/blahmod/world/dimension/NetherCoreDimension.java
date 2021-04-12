@@ -100,7 +100,7 @@ public class NetherCoreDimension extends BlahmodModElements.ModElement {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void clientLoad(FMLClientSetupEvent event) {
-		DimensionRenderInfo customEffect = new DimensionRenderInfo(Float.NaN, true, DimensionRenderInfo.FogType.NONE, false, false) {
+		DimensionRenderInfo customEffect = new DimensionRenderInfo(Float.NaN, true, DimensionRenderInfo.FogType.NORMAL, false, false) {
 			@Override
 			public Vector3d func_230494_a_(Vector3d color, float sunHeight) {
 				return new Vector3d(0.074509803922, 0.082352941176, 0.721568627451);
@@ -108,7 +108,7 @@ public class NetherCoreDimension extends BlahmodModElements.ModElement {
 
 			@Override
 			public boolean func_230493_a_(int x, int y) {
-				return true;
+				return false;
 			}
 		};
 		DeferredWorkQueue.runLater(() -> {

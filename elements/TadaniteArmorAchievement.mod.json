@@ -1,8 +1,8 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Cover Me in Tadanite",
+    "achievementName": "Cover Me With Tadanite",
     "achievementDescription": "Craft a piece of Tadanite Armor",
     "achievementIcon": {
       "value": "CUSTOM:TadaniteArmor.helmet"

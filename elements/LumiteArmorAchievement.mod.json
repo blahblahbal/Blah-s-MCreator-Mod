@@ -1,8 +1,8 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Cover Me in Lumite",
+    "achievementName": "Cover Me With Lumite",
     "achievementDescription": "Craft a piece of Lumite Armor",
     "achievementIcon": {
       "value": "CUSTOM:LumiteArmor.helmet"
@@ -16,7 +16,7 @@
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 1,
-    "achievementType": "challenge",
+    "achievementType": "goal",
     "parent": {
       "value": "CUSTOM:TadaniteArmorAchievement"
     },

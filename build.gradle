@@ -11,9 +11,9 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = '3.5.0'
-group = 'com.yourname.modid'
-archivesBaseName = 'BlahMod'
+version = '4.1.5'
+group = 'com.blahblahbal.blahmod'
+archivesBaseName = 'BlahMod-release'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
 

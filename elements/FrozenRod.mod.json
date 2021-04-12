@@ -1,10 +1,10 @@
 {
-  "_fv": 18,
+  "_fv": 17,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "frostrod",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "name": "Frozen Rod",
     "rarity": "COMMON",
     "creativeTab": {

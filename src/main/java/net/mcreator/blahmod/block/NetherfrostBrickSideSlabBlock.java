@@ -93,7 +93,11 @@ public class NetherfrostBrickSideSlabBlock extends BlahmodModElements.ModElement
 					return VoxelShapes.or(makeCuboidShape(8, 0, 16, 16, 16, 0)).withOffset(offset.x, offset.y, offset.z);
 			}
 		}
-
+		@Override
+		public boolean isTransparent(BlockState state)
+		{
+			return true;
+		}
 		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
 			builder.add(FACING, WATERLOGGED);

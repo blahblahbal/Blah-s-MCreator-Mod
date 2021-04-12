@@ -2,6 +2,7 @@
 package net.mcreator.blahmod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -34,8 +35,8 @@ public class CedarSecretDoorBlock extends BlahmodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 6f).setLightLevel(s -> 0)
-					.doesNotBlockMovement());
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 6f).setLightLevel(s -> 0).harvestLevel(0)
+					.harvestTool(ToolType.AXE).doesNotBlockMovement());
 			setRegistryName("cedar_secret_door");
 		}
 

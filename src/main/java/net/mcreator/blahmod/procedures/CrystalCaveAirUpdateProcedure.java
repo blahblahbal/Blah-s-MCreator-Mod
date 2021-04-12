@@ -50,6 +50,7 @@ public class CrystalCaveAirUpdateProcedure extends BlahmodModElements.ModElement
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+		double rand = 0;
 		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.WATER.getDefaultState().getBlock())) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), MineralWaterBlock.block.getDefaultState(), 3);
 			world.getPendingBlockTicks().scheduleTick(new BlockPos((int) x, (int) y, (int) z),
@@ -57,17 +58,15 @@ public class CrystalCaveAirUpdateProcedure extends BlahmodModElements.ModElement
 		}
 		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.CAVE_AIR.getDefaultState().getBlock())) {
 			if (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.STONE.getDefaultState().getBlock())) {
-				if ((Math.random() < 0.13)) {
-					if ((Math.random() < 0.25)) {
+				if ((Math.random() < 0.01)) {
+					rand = (double) Math.random();
+					if (((rand) < 0.25)) {
 						world.setBlockState(new BlockPos((int) x, (int) y, (int) z), ArgonCrystalClusterBlock.block.getDefaultState(), 3);
-					}
-					if ((Math.random() < 0.25)) {
+					} else if (((rand) < 0.5)) {
 						world.setBlockState(new BlockPos((int) x, (int) y, (int) z), KryptonCrystalClusterBlock.block.getDefaultState(), 3);
-					}
-					if ((Math.random() < 0.25)) {
+					} else if (((rand) < 0.75)) {
 						world.setBlockState(new BlockPos((int) x, (int) y, (int) z), NeonCrystalClusterBlock.block.getDefaultState(), 3);
-					}
-					if ((Math.random() < 0.25)) {
+					} else {
 						world.setBlockState(new BlockPos((int) x, (int) y, (int) z), XenonCrystalClusterBlock.block.getDefaultState(), 3);
 					}
 				}
